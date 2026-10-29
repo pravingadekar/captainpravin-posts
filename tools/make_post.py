@@ -5,7 +5,8 @@ import sys
 
 from PIL import Image, ImageDraw, ImageFont
 
-from make_reel import build_reel
+import tts
+from make_reel import build_reel, voice_durations
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "fonts")
@@ -29,8 +30,11 @@ def font(weight, size):
 # Content comes from <OUT>/content.json: {"topic": str, "slides": [[[kind, value], ...], ...]}
 # Block kinds: tag, title, text, list (list of str), box, compare ([[label, result, "green"|"red"], ...]),
 # cta, disclaimer. The last slide should hold the question, cta and disclaimer.
+# Optional "narration": one voiceover line per slide (Devanagari reads best) for the reel.
 with open(os.path.join(OUT, "content.json"), encoding="utf-8") as _f:
-    SLIDES = json.load(_f)["slides"]
+    _content = json.load(_f)
+SLIDES = _content["slides"]
+NARRATION = _content.get("narration")
 COLORS = {"green": GREEN, "red": RED, "gold": GOLD}
 
 
@@ -172,10 +176,17 @@ def main():
         render(i, 1080, 1350).save(os.path.join(OUT, f"slide{i + 1}.png"), optimize=True)
         render(i, 1080, 1920, swipe=False).save(os.path.join(reel_dir, f"r{i + 1}.png"))
 
-    # reel: each slide held, cross-faded, over an original synthesized track
+    # reel: each slide held, cross-faded, over an original synthesized track,
+    # with a voiceover when content.json has narration and a TTS key is set
     frames = [os.path.join(reel_dir, f"r{i + 1}.png") for i in range(len(SLIDES))]
-    build_reel(frames, [3.5, 4, 4.5, 4.5, 5.5, 5.5], os.path.join(OUT, "reel.mp4"))
-    print("done", OUT)
+    voices = None
+    if NARRATION and "--no-voice" not in sys.argv:
+        if not tts.available():
+            sys.exit("content.json has narration but ELEVENLABS_API_KEY is not set (use --no-voice to skip)")
+        voices = tts.speak_all(NARRATION, os.path.join(reel_dir, "voice"))
+    durs = voice_durations(voices) if voices else [3.5, 4, 4.5, 4.5, 5.5, 5.5]
+    build_reel(frames, durs, os.path.join(OUT, "reel.mp4"), voices)
+    print("done", OUT, "with voice" if voices else "music only")
 
 
 if __name__ == "__main__":

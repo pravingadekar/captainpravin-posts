@@ -1,11 +1,15 @@
 """Turn a sequence of 1080x1920 frames into a cross-faded reel over an original synthesized track.
 
+With `voices` (one audio file per frame), each frame is held for as long as its voice line plays and the
+music is ducked under the voice.
+
 CLI: python tools/make_reel.py OUT.mp4 SECONDS_PER_FRAME frame1.png frame2.png ...
 """
 import os
 import subprocess
 import sys
 import tempfile
+import wave
 
 import imageio_ffmpeg
 
@@ -13,30 +17,64 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import make_music  # noqa: E402
 
 FADE = 0.5
+VOICE_LEAD = 0.3   # seconds after a frame appears before its line starts
+VOICE_TAIL = 0.7   # pause after a line before the next frame
+MUSIC_UNDER_VOICE = 0.15
+FFMPEG = imageio_ffmpeg.get_ffmpeg_exe()
 
 
-def build_reel(frames, durs, out_path):
+def audio_seconds(path):
+    with tempfile.TemporaryDirectory() as tmp:
+        wav = os.path.join(tmp, "a.wav")
+        subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", path, "-ac", "1", "-ar", "22050", wav], check=True)
+        with wave.open(wav) as w:
+            return w.getnframes() / w.getframerate()
+
+
+def voice_durations(voices, min_secs=3.0):
+    return [max(min_secs, VOICE_LEAD + audio_seconds(v) + VOICE_TAIL) for v in voices]
+
+
+def build_reel(frames, durs, out_path, voices=None):
     length = sum(durs) - FADE * (len(durs) - 1)
-    offsets, offset = [], 0.0
+    starts, offset = [0.0], 0.0
     for i in range(1, len(durs)):
         offset += durs[i - 1] - FADE
-        offsets.append(offset)
+        starts.append(offset)
+    offsets = starts[1:]
 
     with tempfile.TemporaryDirectory() as tmp:
         music = os.path.join(tmp, "music.wav")
         make_music.main(music, length, [o + FADE / 2 for o in offsets])
 
-        cmd = [imageio_ffmpeg.get_ffmpeg_exe(), "-y", "-loglevel", "error"]
+        cmd = [FFMPEG, "-y", "-loglevel", "error"]
         for frame, dur in zip(frames, durs):
             cmd += ["-loop", "1", "-t", str(dur), "-i", frame]
         cmd += ["-i", music]
+        for v in voices or []:
+            cmd += ["-i", v]
         parts, prev = [], "[0:v]"
         for i, offset in enumerate(offsets, start=1):
             label = f"[v{i}]"
             parts.append(f"{prev}[{i}:v]xfade=transition=fade:duration={FADE}:offset={offset:.2f}{label}")
             prev = label
         parts.append(f"{prev}scale=1080:1920,format=yuv420p,fps=30[vout]")
-        cmd += ["-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{len(durs)}:a",
+
+        music_in = len(durs)
+        if voices:
+            parts.append(f"[{music_in}:a]volume={MUSIC_UNDER_VOICE}[m]")
+            mix = ["[m]"]
+            for i, start in enumerate(starts[:len(voices)]):
+                ms = int((start + VOICE_LEAD) * 1000)
+                parts.append(f"[{music_in + 1 + i}:a]aresample=44100,aformat=channel_layouts=mono,"
+                             f"adelay={ms}:all=1[vo{i}]")
+                mix.append(f"[vo{i}]")
+            parts.append(f"{''.join(mix)}amix=inputs={len(mix)}:duration=first:normalize=0[aout]")
+            audio_map = "[aout]"
+        else:
+            audio_map = f"{music_in}:a"
+
+        cmd += ["-filter_complex", ";".join(parts), "-map", "[vout]", "-map", audio_map,
                 "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k", "-ac", "2",
                 "-shortest", "-movflags", "+faststart", out_path]
         subprocess.run(cmd, check=True)

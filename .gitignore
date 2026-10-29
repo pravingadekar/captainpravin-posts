@@ -1,2 +1,3 @@
 tools/reel_frames/
 __pycache__/
+samples/voice_test_post/*.png

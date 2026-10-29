@@ -31,8 +31,8 @@ Do A completely first, then B.
    `page1.png` … `page5.png`, `caption.txt` (the caption block text), `hashtags.txt` (the 30 hashtags line).
 5. Build the reel (7 seconds per page, original synthesized background music — no other audio):
    ```
-   pip install -q -r requirements.txt
-   python tools/make_reel.py candlestick/days/DAY<NNN>/reel.mp4 7 candlestick/days/DAY<NNN>/page{1,2,3,4,5}.png
+   python3 -m pip install -q -r requirements.txt   # if PIL fails with "_imaging": add --force-reinstall
+   python3 tools/make_reel.py candlestick/days/DAY<NNN>/reel.mp4 7 candlestick/days/DAY<NNN>/page{1,2,3,4,5}.png
    ```
 6. Append to `topics_log.md` under "Automated log": `- DAY N | <platforms> | <Hindi name> (<English name>) | $D`.
    Update `state.json` (`ig_next_day += 1` for A, `yt_catchup_next_day += 1` for B).

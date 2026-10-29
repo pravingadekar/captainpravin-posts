@@ -15,15 +15,22 @@ Language: Hinglish (Roman script). Educational only.
    - Keep titles under ~45 chars and list items under ~40 chars. Use only plain ASCII plus ÷ × % $ ₹ in slide text:
      NO emoji and NO arrows (→) — Poppins has no glyph for them.
    - Double-check every number and formula.
+   - Add `"narration"`: a list of exactly 6 voiceover lines, one per slide, spoken by a Hindi female voice
+     (ElevenLabs). Write them in Devanagari, with English trading words transliterated (ट्रेड, रिस्क, स्टॉप लॉस,
+     लॉट साइज़) and numbers spelled as words (एक परसेंट, दस डॉलर) so the voice pronounces them correctly.
+     Conversational Hinglish, 1-2 short sentences per slide (~12-25 words). Line 1 is the hook, line 6 asks the
+     comment question and says "फ़ॉलो करो, ट्रेड विद कैप्टन प्रवीण". Same facts as the slides, nothing extra.
 4. Write `posts/$D/captions.md` (Instagram carousel, Instagram Reel, Facebook, YouTube Short) in the format of
    `posts/2026-10-29/captions.md`. Each caption: hook, key points, engagement question, Follow/Subscribe CTA,
    disclaimer, hashtags. YouTube title under 100 chars, ending in `#shorts`.
 5. Render and check:
    ```
-   pip install -q -r requirements.txt
-   python tools/make_post.py posts/$D
+   python3 -m pip install -q -r requirements.txt   # if PIL fails with "_imaging": add --force-reinstall
+   python3 tools/make_post.py posts/$D
    ```
-   Open every `slideN.png` and look at it. Text must not overflow the frame, overlap the footer, or show empty boxes.
+   It must print "with voice" (needs `ELEVENLABS_API_KEY`, set in the environment; never print it). If the voice
+   step fails, retry once; if it still fails, render with `--no-voice` so the post still goes out, and say so in
+   your final message. Open every `slideN.png` and look at it. Text must not overflow the frame, overlap the footer, or show empty boxes.
    Fix content.json and re-render until clean. Then commit (`Post $D: <topic>`), `git pull --rebase origin main`, and push
    to `main` (another routine pushes to this repo too; on a rejected push, pull --rebase and retry up to 3 times).
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/slide1.png` and
