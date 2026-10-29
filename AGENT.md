@@ -7,7 +7,7 @@ Language: Hinglish (Roman script). Educational only.
 
 1. `D=$(TZ=Asia/Kolkata date +%F)`. If `posts/$D/` already exists with `reel.mp4`, skip to step 6.
 2. Pick the first unchecked topic in `topics.md`; tick it as `- [x] <topic> ($D)`.
-3. Write `posts/$D/content.json` with exactly 6 slides, same shape as `posts/2026-10-30/content.json`:
+3. Write `posts/$D/content.json` with exactly 6 slides, same shape as `posts/2026-10-29/content.json`:
    - Slide 1: hook (`tag`, `title` as a question/bold claim, short `text`, `box` "Aaj seekho: ...").
    - Slides 2-5: one idea each, with a concrete number/example. Use `list`, `box`, `compare` (colors `green`/`red`).
    - Slide 6: `tag` "AAPKI BAARI", engagement question as `title`, `text`, `cta` "Follow karo aur daily forex seekho",
@@ -16,7 +16,7 @@ Language: Hinglish (Roman script). Educational only.
      NO emoji and NO arrows (→) — Poppins has no glyph for them.
    - Double-check every number and formula.
 4. Write `posts/$D/captions.md` (Instagram carousel, Instagram Reel, Facebook, YouTube Short) in the format of
-   `posts/2026-10-30/captions.md`. Each caption: hook, key points, engagement question, Follow/Subscribe CTA,
+   `posts/2026-10-29/captions.md`. Each caption: hook, key points, engagement question, Follow/Subscribe CTA,
    disclaimer, hashtags. YouTube title under 100 chars, ending in `#shorts`.
 5. Render and check:
    ```

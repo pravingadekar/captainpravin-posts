@@ -1,4 +1,4 @@
-# 2026-10-30 — 1% Risk Rule
+# 2026-10-29 — 1% Risk Rule
 
 ## Instagram (carousel + reel)
 90% traders ka account strategy se nahi, RISK se udta hai. 😬
