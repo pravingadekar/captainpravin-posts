@@ -16,3 +16,12 @@ https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/<
 ```
 
 Educational content only. No buy/sell signals or profit guarantees.
+
+## Making a post
+
+```
+pip install pillow imageio-ffmpeg
+python tools/make_post.py posts/YYYY-MM-DD
+```
+
+Edit `SLIDES` in `tools/make_post.py` for the day's topic. Fonts: Poppins (OFL).
