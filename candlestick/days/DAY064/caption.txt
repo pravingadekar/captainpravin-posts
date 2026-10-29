@@ -1,0 +1,23 @@
+🔴 आज का सबसे ज़रूरी level chart पर पहले से लिखा होता है — कल का High और Low!
+पिछले दिन का हाई-लो (Previous Day High-Low / PDH-PDL) — DAY 64 📓
+
+कल की candle का सबसे ऊँचा भाव = PDH, सबसे नीचा भाव = PDL।
+आज intraday में यही दोनों lines Support-Resistance की तरह काम करती हैं।
+
+✅ कहाँ बनता है: हर दिन — आज के 5/15-min chart पर कल के High/Low की lines
+✅ Signal: Neutral — PDH के ऊपर close = तेजी, PDL के नीचे close = मंदी
+✅ Rule: Level wick के High/Low से बनता है, सिर्फ़ wick से टूटना काफ़ी नहीं — candle close ज़रूरी
+✅ Confirmation: Volume + retest + अगली candle का close level के पार
+✅ Stop Loss: PDH breakout में retest Low के नीचे, PDL breakdown में retest High के ऊपर
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 65 — ब्रेकआउट और फेकआउट (Breakout & Fakeout) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप chart पर PDH/PDL lines लगाते हो या नहीं?
+
+(Educational purpose only, not financial advice)
