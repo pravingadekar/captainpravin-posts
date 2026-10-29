@@ -50,6 +50,8 @@ Language: Hinglish (Roman script). Educational only.
    | 18:00 | Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption |
    | 20:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
    If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.
+   If createScheduledPost fails with "Failed to normalize media", the file was pushed too recently for
+   Metricool to fetch: wait 90 seconds (`sleep 90`) and retry, up to 5 times, before reporting failure.
    Media URLs: `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/<file>`.
 
 ## Content rules (never break)

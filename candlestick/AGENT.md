@@ -61,6 +61,8 @@ shorten the Hindi name if needed), `madeForKids: false`, `category: EDUCATION`, 
 `tags`: 6-10 relevant tags from the hashtags (without #).
 
 If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.
+If createScheduledPost fails with "Failed to normalize media", the file was pushed too recently for
+Metricool to fetch: wait 90 seconds (`sleep 90`) and retry, up to 5 times, before reporting failure.
 
 ## Final message
 One line per lesson: DAY, topic, which posts were scheduled at what time (or what failed).

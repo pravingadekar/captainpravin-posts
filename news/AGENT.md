@@ -58,6 +58,11 @@ If `$DIR/reel.mp4` already exists, skip to step 6.
 
    YouTube: `madeForKids: false`, `category: EDUCATION`, `privacy: public`. If a slot has passed, use 10 minutes
    from now.
+   Daily: if every event in `events.json` is before 12:30 IST, post the reels at 07:45 (Instagram + YouTube) and
+   07:50 (Facebook) instead, so they go out before the news. A reel or carousel already scheduled for $D on a
+   network (at any time) counts as done — never schedule a second one.
+   If createScheduledPost fails with "Failed to normalize media", the file was pushed too recently for
+   Metricool to fetch: wait 90 seconds (`sleep 90`) and retry, up to 5 times, before reporting failure.
 
 ## Final message
 Mode, date, number of events, what was scheduled when (or what failed).
