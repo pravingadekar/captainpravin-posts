@@ -3,7 +3,7 @@
 Brand: **Trade With Captain Pravin** (@tradewithcaptainpravin). Audience: Indian beginners learning forex.
 Language: Hinglish (Roman script). Educational only.
 
-## Steps (run once per day, ~5:30 PM IST; posts go out at 7:00 PM, reels at 9:00 PM)
+## Steps (run once per day, ~8:00 AM IST, before the first slot at 10:00 AM)
 
 1. `D=$(TZ=Asia/Kolkata date +%F)`. If `posts/$D/` already exists with `reel.mp4`, skip to step 6.
 2. Pick the first unchecked topic in `topics.md`; tick it as `- [x] <topic> ($D)`.
@@ -28,14 +28,16 @@ Language: Hinglish (Roman script). Educational only.
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/slide1.png` and
    `.../reel.mp4` return HTTP 200 (retry for up to 2 minutes after push).
 7. Metricool (blogId `7732528`, timezone `Asia/Calcutta`). First call getScheduledPosts for $D; do not create a post
-   that already exists. Then create, timezone Asia/Calcutta, autoPublish true:
-   - **Posts at `$D` 19:00:00**
-     - Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption.
-     - Facebook `POST` with slide1..slide6 URLs, Facebook caption.
-   - **Reels at `$D` 21:00:00**
-     - Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption.
-     - Facebook `REEL` with reel.mp4, Reel caption (Facebook variant).
-     - YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public`.
+   that already exists. Then create, timezone Asia/Calcutta, autoPublish true, at these times on `$D`
+   (from Metricool best-time data, Oct 2026; the reel gets each network's peak slot because reels reach non-followers):
+   | Time  | Post |
+   |-------|------|
+   | 10:00 | Facebook `REEL` with reel.mp4, Reel caption (Facebook variant) |
+   | 12:00 | Facebook `POST` with slide1..slide6 URLs, Facebook caption |
+   | 16:00 | YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public` |
+   | 18:00 | Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption |
+   | 20:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
+   If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.
    Media URLs: `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/<file>`.
 
 ## Content rules (never break)
