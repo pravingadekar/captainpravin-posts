@@ -24,7 +24,8 @@ Language: Hinglish (Roman script). Educational only.
    python tools/make_post.py posts/$D
    ```
    Open every `slideN.png` and look at it. Text must not overflow the frame, overlap the footer, or show empty boxes.
-   Fix content.json and re-render until clean. Then commit (`Post $D: <topic>`) and push to `main`.
+   Fix content.json and re-render until clean. Then commit (`Post $D: <topic>`), `git pull --rebase origin main`, and push
+   to `main` (another routine pushes to this repo too; on a rejected push, pull --rebase and retry up to 3 times).
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/slide1.png` and
    `.../reel.mp4` return HTTP 200 (retry for up to 2 minutes after push).
 7. Metricool (blogId `7732528`, timezone `Asia/Calcutta`). First call getScheduledPosts for $D; do not create a post

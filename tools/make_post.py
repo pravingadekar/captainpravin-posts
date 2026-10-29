@@ -1,13 +1,11 @@
 """Render a 6-slide carousel (1080x1350) and a reel (1080x1920) for one post."""
 import json
 import os
-import subprocess
 import sys
 
-import imageio_ffmpeg
 from PIL import Image, ImageDraw, ImageFont
 
-import make_music
+from make_reel import build_reel
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "fonts")
@@ -175,31 +173,8 @@ def main():
         render(i, 1080, 1920, swipe=False).save(os.path.join(reel_dir, f"r{i + 1}.png"))
 
     # reel: each slide held, cross-faded, over an original synthesized track
-    durs = [3.5, 4, 4.5, 4.5, 5.5, 5.5]
-    fade = 0.5
-    length = sum(durs) - fade * (len(durs) - 1)
-    offsets, offset = [], 0.0
-    for i in range(1, len(durs)):
-        offset += durs[i - 1] - fade
-        offsets.append(offset)
-    music = os.path.join(reel_dir, "music.wav")
-    make_music.main(music, length, [o + fade / 2 for o in offsets])
-
-    ff = imageio_ffmpeg.get_ffmpeg_exe()
-    cmd = [ff, "-y", "-loglevel", "error"]
-    for i, dur in enumerate(durs):
-        cmd += ["-loop", "1", "-t", str(dur), "-i", os.path.join(reel_dir, f"r{i + 1}.png")]
-    cmd += ["-i", music]
-    parts, prev = [], "[0:v]"
-    for i, offset in enumerate(offsets, start=1):
-        label = f"[v{i}]"
-        parts.append(f"{prev}[{i}:v]xfade=transition=fade:duration={fade}:offset={offset:.2f}{label}")
-        prev = label
-    parts.append(f"{prev}format=yuv420p,fps=30[vout]")
-    cmd += ["-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{len(durs)}:a",
-            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k", "-ac", "2",
-            "-shortest", "-movflags", "+faststart", os.path.join(OUT, "reel.mp4")]
-    subprocess.run(cmd, check=True)
+    frames = [os.path.join(reel_dir, f"r{i + 1}.png") for i in range(len(SLIDES))]
+    build_reel(frames, [3.5, 4, 4.5, 4.5, 5.5, 5.5], os.path.join(OUT, "reel.mp4"))
     print("done", OUT)
 
 
