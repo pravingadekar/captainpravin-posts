@@ -6,6 +6,8 @@ import sys
 import imageio_ffmpeg
 from PIL import Image, ImageDraw, ImageFont
 
+import make_music
+
 HERE = os.path.dirname(os.path.abspath(__file__))
 FONTS = os.path.join(HERE, "fonts")
 OUT = sys.argv[1]
@@ -219,24 +221,30 @@ def main():
         render(i, 1080, 1350).save(os.path.join(OUT, f"slide{i + 1}.png"), optimize=True)
         render(i, 1080, 1920, swipe=False).save(os.path.join(reel_dir, f"r{i + 1}.png"))
 
-    # reel: each slide held, cross-faded, with a silent audio track
+    # reel: each slide held, cross-faded, over an original synthesized track
     durs = [3.5, 4, 4.5, 4.5, 5.5, 5.5]
     fade = 0.5
+    length = sum(durs) - fade * (len(durs) - 1)
+    offsets, offset = [], 0.0
+    for i in range(1, len(durs)):
+        offset += durs[i - 1] - fade
+        offsets.append(offset)
+    music = os.path.join(reel_dir, "music.wav")
+    make_music.main(music, length, [o + fade / 2 for o in offsets])
+
     ff = imageio_ffmpeg.get_ffmpeg_exe()
     cmd = [ff, "-y", "-loglevel", "error"]
     for i, dur in enumerate(durs):
         cmd += ["-loop", "1", "-t", str(dur), "-i", os.path.join(reel_dir, f"r{i + 1}.png")]
-    cmd += ["-f", "lavfi", "-t", str(sum(durs) - fade * (len(durs) - 1)),
-            "-i", "anullsrc=channel_layout=stereo:sample_rate=44100"]
-    parts, prev, offset = [], "[0:v]", 0.0
-    for i in range(1, len(durs)):
-        offset += durs[i - 1] - fade
+    cmd += ["-i", music]
+    parts, prev = [], "[0:v]"
+    for i, offset in enumerate(offsets, start=1):
         label = f"[v{i}]"
         parts.append(f"{prev}[{i}:v]xfade=transition=fade:duration={fade}:offset={offset:.2f}{label}")
         prev = label
     parts.append(f"{prev}format=yuv420p,fps=30[vout]")
     cmd += ["-filter_complex", ";".join(parts), "-map", "[vout]", "-map", f"{len(durs)}:a",
-            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k",
+            "-c:v", "libx264", "-preset", "medium", "-crf", "20", "-c:a", "aac", "-b:a", "128k", "-ac", "2",
             "-shortest", "-movflags", "+faststart", os.path.join(OUT, "reel.mp4")]
     subprocess.run(cmd, check=True)
     print("done", OUT)
