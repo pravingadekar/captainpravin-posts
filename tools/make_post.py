@@ -35,6 +35,10 @@ with open(os.path.join(OUT, "content.json"), encoding="utf-8") as _f:
     _content = json.load(_f)
 SLIDES = _content["slides"]
 NARRATION = _content.get("narration")
+if "TODO" in json.dumps(_content):
+    sys.exit("content.json still has TODO placeholders")
+if NARRATION and len(NARRATION) != len(SLIDES):
+    sys.exit(f"narration has {len(NARRATION)} lines for {len(SLIDES)} slides")
 COLORS = {"green": GREEN, "red": RED, "gold": GOLD}
 
 
@@ -184,7 +188,12 @@ def main():
         if not tts.available():
             sys.exit("content.json has narration but ELEVENLABS_API_KEY is not set (use --no-voice to skip)")
         voices = tts.speak_all(NARRATION, os.path.join(reel_dir, "voice"))
-    durs = voice_durations(voices) if voices else [3.5, 4, 4.5, 4.5, 5.5, 5.5]
+    if voices:
+        durs = voice_durations(voices)
+    elif len(SLIDES) == 6:
+        durs = [3.5, 4, 4.5, 4.5, 5.5, 5.5]
+    else:
+        durs = [3.5] + [5.0] * (len(SLIDES) - 2) + [5.5]
     build_reel(frames, durs, os.path.join(OUT, "reel.mp4"), voices)
     print("done", OUT, "with voice" if voices else "music only")
 
