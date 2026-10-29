@@ -11,7 +11,7 @@ Language: Hinglish (Roman script). Educational only.
    - Slide 1: hook (`tag`, `title` as a question/bold claim, short `text`, `box` "Aaj seekho: ...").
    - Slides 2-5: one idea each, with a concrete number/example. Use `list`, `box`, `compare` (colors `green`/`red`).
    - Slide 6: `tag` "AAPKI BAARI", engagement question as `title`, `text`,
-     `cta` exactly "Follow + Subscribe karo. Roz YouTube LIVE par saath judo!",
+     `cta` exactly "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!",
      `disclaimer` exactly: "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
    - Keep titles under ~45 chars and list items under ~40 chars. Use only plain ASCII plus ÷ × % $ ₹ in slide text:
      NO emoji and NO arrows (→) — Poppins has no glyph for them.
@@ -20,12 +20,12 @@ Language: Hinglish (Roman script). Educational only.
      (ElevenLabs). Write them in Devanagari, with English trading words transliterated (ट्रेड, रिस्क, स्टॉप लॉस,
      लॉट साइज़) and numbers spelled as words (एक परसेंट, दस डॉलर) so the voice pronounces them correctly.
      Conversational Hinglish, 1-2 short sentences per slide (~12-25 words). Line 1 is the hook. Line 6 asks the
-     comment question, then ends exactly with: "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ यूट्यूब
-     पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।" Same facts as the slides, nothing extra.
+     comment question, then ends exactly with: "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे
+     यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।" Same facts as the slides, nothing extra.
 4. Write `posts/$D/captions.md` (Instagram carousel, Instagram Reel, Facebook, YouTube Short) in the format of
    `posts/2026-10-29/captions.md`. Each caption: hook, key points, engagement question, CTA, disclaimer, hashtags.
    The CTA in every caption: "Follow + Subscribe karo @tradewithcaptainpravin" and
-   "🔴 Hum roz YouTube par LIVE aate hain, live mein hamare saath judo!" (YouTube: "Subscribe karo" + the same
+   "🔴 Hum roz raat 9 baje YouTube par LIVE aate hain, live mein hamare saath judo!" (YouTube: "Subscribe karo" + the same
    live line). YouTube title under 100 chars, ending in `#shorts`.
 5. Render and check:
    ```
