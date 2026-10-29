@@ -32,6 +32,7 @@ Language: Hinglish (Roman script). Educational only.
    - Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption.
    - Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption. Schedule at 19:05.
    - Facebook `POST` with slide1..slide6 URLs, Facebook caption.
+   - Facebook `REEL` with reel.mp4, Reel caption (Facebook variant). Schedule at 19:05.
    - YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public`.
    Media URLs: `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/<file>`.
 
