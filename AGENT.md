@@ -3,7 +3,7 @@
 Brand: **Trade With Captain Pravin** (@tradewithcaptainpravin). Audience: Indian beginners learning forex.
 Language: Hinglish (Roman script). Educational only.
 
-## Steps (run once per day, ~5:30 PM IST)
+## Steps (run once per day, ~5:30 PM IST; posts go out at 7:00 PM, reels at 9:00 PM)
 
 1. `D=$(TZ=Asia/Kolkata date +%F)`. If `posts/$D/` already exists with `reel.mp4`, skip to step 6.
 2. Pick the first unchecked topic in `topics.md`; tick it as `- [x] <topic> ($D)`.
