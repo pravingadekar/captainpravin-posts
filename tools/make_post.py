@@ -1,4 +1,5 @@
 """Render a 6-slide carousel (1080x1350) and a reel (1080x1920) for one post."""
+import json
 import os
 import subprocess
 import sys
@@ -27,60 +28,12 @@ def font(weight, size):
     return ImageFont.truetype(os.path.join(FONTS, f"Poppins-{weight}.ttf"), size)
 
 
-# Each slide: list of blocks. Block kinds: tag, title, text, box, compare, cta, disclaimer
-SLIDES = [
-    [
-        ("tag", "FOREX BASICS"),
-        ("title", "90% Traders Account Kyun Uda Dete Hain?"),
-        ("text", "Strategy nahi... RISK galat hota hai."),
-        ("box", "Aaj seekho: 1% Risk Rule"),
-    ],
-    [
-        ("tag", "PROBLEM"),
-        ("title", "Account Udne Ke 3 Reason"),
-        ("list", [
-            "Bada lot size, chhota account",
-            "Stop loss lagaya hi nahi",
-            "Loss ke baad revenge trade",
-        ]),
-        ("text", "Ek bura din poora mahina kha jaata hai."),
-    ],
-    [
-        ("tag", "THE RULE"),
-        ("title", "1% Risk Rule Kya Hai?"),
-        ("text", "Ek trade mein account ka maximum 1% hi risk karo."),
-        ("box", "$1,000 account  =  max $10 risk / trade"),
-        ("text", "Stop loss hit hua? Sirf 1% gaya. Account zinda hai."),
-    ],
-    [
-        ("tag", "MATHS DEKHO"),
-        ("title", "Lagatar 10 Loss Ke Baad"),
-        ("compare", [
-            ("1% risk / trade", "~90% account bacha", GREEN),
-            ("10% risk / trade", "~35% account bacha", RED),
-        ]),
-        ("text", "Same 10 loss. Farak sirf risk size ka."),
-    ],
-    [
-        ("tag", "LOT SIZE"),
-        ("title", "Lot Size Kaise Nikaalein?"),
-        ("box", "Lot = Risk $ ÷ (SL pips × pip value)"),
-        ("list", [
-            "Account $1,000, risk 1% = $10",
-            "Stop loss 20 pips (EURUSD)",
-            "0.01 lot = $0.10 / pip",
-            "$10 ÷ (20 × $0.10) = 5 micro = 0.05 lot",
-        ]),
-    ],
-    [
-        ("tag", "AAPKI BAARI"),
-        ("title", "Aap Ek Trade Mein Kitna % Risk Lete Ho?"),
-        ("text", "Comment mein batao. Honest answer chahiye!"),
-        ("cta", "Follow karo aur daily forex seekho"),
-        ("disclaimer", "Disclaimer: Sirf educational content. Financial advice nahi. "
-                       "Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."),
-    ],
-]
+# Content comes from <OUT>/content.json: {"topic": str, "slides": [[[kind, value], ...], ...]}
+# Block kinds: tag, title, text, list (list of str), box, compare ([[label, result, "green"|"red"], ...]),
+# cta, disclaimer. The last slide should hold the question, cta and disclaimer.
+with open(os.path.join(OUT, "content.json"), encoding="utf-8") as _f:
+    SLIDES = json.load(_f)["slides"]
+COLORS = {"green": GREEN, "red": RED, "gold": GOLD}
 
 
 def wrap(draw, text, fnt, width):
@@ -160,7 +113,7 @@ def render(idx, w, h, swipe=True):
             y += bh + 40
         elif kind == "compare":
             for label, result, col in val:
-                ops.append(("cmp", y, label, result, col))
+                ops.append(("cmp", y, label, result, COLORS[col]))
                 y += 190
             y += 20
         elif kind == "disclaimer":
