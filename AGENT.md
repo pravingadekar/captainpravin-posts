@@ -28,12 +28,14 @@ Language: Hinglish (Roman script). Educational only.
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/slide1.png` and
    `.../reel.mp4` return HTTP 200 (retry for up to 2 minutes after push).
 7. Metricool (blogId `7732528`, timezone `Asia/Calcutta`). First call getScheduledPosts for $D; do not create a post
-   that already exists. Then create, all at `$D` 19:00:00 Asia/Calcutta, autoPublish true:
-   - Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption.
-   - Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption. Schedule at 19:05.
-   - Facebook `POST` with slide1..slide6 URLs, Facebook caption.
-   - Facebook `REEL` with reel.mp4, Reel caption (Facebook variant). Schedule at 19:05.
-   - YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public`.
+   that already exists. Then create, timezone Asia/Calcutta, autoPublish true:
+   - **Posts at `$D` 19:00:00**
+     - Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption.
+     - Facebook `POST` with slide1..slide6 URLs, Facebook caption.
+   - **Reels at `$D` 21:00:00**
+     - Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption.
+     - Facebook `REEL` with reel.mp4, Reel caption (Facebook variant).
+     - YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public`.
    Media URLs: `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/<file>`.
 
 ## Content rules (never break)
