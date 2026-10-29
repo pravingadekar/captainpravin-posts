@@ -1,0 +1,34 @@
+[
+  {
+    "ist": "2026-10-30T08:00:00+05:30",
+    "currency": "JPY",
+    "title": "BOJ Policy Rate",
+    "impact": "High",
+    "forecast": "<1.25%",
+    "previous": "<1.25%"
+  },
+  {
+    "ist": "2026-10-30T08:00:00+05:30",
+    "currency": "JPY",
+    "title": "Monetary Policy Statement",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-10-30T08:01:00+05:30",
+    "currency": "JPY",
+    "title": "BOJ Outlook Report",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-10-30T11:00:00+05:30",
+    "currency": "JPY",
+    "title": "BOJ Press Conference",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  }
+]
