@@ -1,0 +1,19 @@
+{
+  "topic": "Stop Loss kahan lagayein (structure-based SL)",
+  "slides": [
+    [["tag","STOP LOSS"],["title","Stop Loss Baar Baar Hit Kyun Hota Hai?"],["text","Galti SL ki jagah mein hoti hai, market mein nahi."],["box","Aaj seekho: Structure-based SL"]],
+    [["tag","GALTI"],["title","SL Lagane Ki 3 Aam Galtiyan"],["list",["Random 10 pip ka SL","Entry ke bilkul paas SL","SL lagana hi bhool jaana"]],["text","Market ka noise chhote SL ko turant hit karta hai."]],
+    [["tag","STRUCTURE SL"],["title","SL Kahan Lagayein?"],["text","Buy setup mein SL recent swing low ke neeche, sell mein swing high ke upar."],["box","SL = Swing Low - buffer (5 pips)"],["text","Jagah chart tay karta hai, aapka mann nahi."]],
+    [["tag","EXAMPLE"],["title","EURUSD Ka Example"],["list",["Entry: 1.0875","Swing low: 1.0855","Buffer 5 pips: SL = 1.0850","SL distance = 25 pips"]],["text","Sirf samajhne ke liye example, signal nahi."]],
+    [["tag","LOT SIZE"],["title","SL Se Lot Size Nikaalo"],["box","Lot = Risk $ ÷ (SL pips × pip value)"],["list",["Account $1,000, 1% risk = $10","SL = 25 pips","0.01 lot = $0.10 / pip","$10 ÷ (25 × $0.10) = 4 micro = 0.04 lot"]]],
+    [["tag","AAPKI BAARI"],["title","Aap SL Kahan Lagate Ho?"],["text","Comment mein batao: fixed pips ya structure ke hisaab se?"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "क्या आपका स्टॉप लॉस बार बार हिट हो जाता है? गलती मार्केट की नहीं, स्टॉप लॉस की जगह की होती है। आज सीखो स्ट्रक्चर वाला स्टॉप लॉस।",
+    "तीन आम गलतियां हैं। रैंडम दस पिप का स्टॉप लॉस, एंट्री के बिल्कुल पास स्टॉप लॉस, या स्टॉप लॉस लगाना ही भूल जाना।",
+    "बाय सेटअप में स्टॉप लॉस रीसेंट स्विंग लो के नीचे लगाओ, और सेल में स्विंग हाई के ऊपर। साथ में पांच पिप का बफर रखो।",
+    "मान लो यूरो डॉलर में एंट्री एक पॉइंट शून्य आठ सात पांच, स्विंग लो एक पॉइंट शून्य आठ पांच पांच। बफर के साथ स्टॉप लॉस पच्चीस पिप दूर है। यह सिर्फ समझने का उदाहरण है।",
+    "अब लॉट साइज़ निकालो। एक हज़ार डॉलर का अकाउंट, एक परसेंट रिस्क यानी दस डॉलर। दस डॉलर भाग पच्चीस गुणा शून्य दशमलव एक, बराबर शून्य दशमलव शून्य चार लॉट।",
+    "अब आपकी बारी। आप स्टॉप लॉस कहां लगाते हो, फिक्स्ड पिप्स पर या स्ट्रक्चर देखकर? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}

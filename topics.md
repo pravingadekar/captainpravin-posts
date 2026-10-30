@@ -3,7 +3,7 @@
 Pick the first unchecked topic, then tick it with the post date. Add new topics at the end when fewer than 10 remain.
 
 - [x] 1% Risk Rule (2026-10-29)
-- [ ] Stop Loss kahan lagayein (structure-based SL)
+- [x] Stop Loss kahan lagayein (structure-based SL) (2026-10-30)
 - [ ] Risk:Reward 1:2 ka maths (win rate vs RR)
 - [ ] Pip, Lot aur Leverage simple bhasha mein
 - [ ] Forex market sessions IST mein (Tokyo, London, New York)
