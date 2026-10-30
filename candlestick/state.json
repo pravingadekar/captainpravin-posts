@@ -1,5 +1,5 @@
 {
   "ig_next_day": 66,
-  "yt_catchup_next_day": 26,
-  "yt_catchup_last_day": 63
+  "yt_next_day": 26,
+  "yt_already_posted": [64, 65]
 }
