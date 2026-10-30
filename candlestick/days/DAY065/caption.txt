@@ -1,0 +1,23 @@
+🔴 Resistance टूटते ही buy कर दिया और price वापस गिर गया? आप Fakeout के जाल में फँसे थे!
+ब्रेकआउट और फेकआउट (Breakout & Fakeout) — DAY 65 📓
+
+Breakout = price ज़रूरी level के पार candle close करे और वहीं टिका रहे।
+Fakeout = level के पार जाता दिखे, पर जल्दी वापस range के अंदर आ जाए।
+
+✅ कहाँ बनता है: Range के Support/Resistance, Trendline, PDH-PDL और पुराने High-Low पर
+✅ Signal: Neutral — level के ऊपर close = तेजी, नीचे close = मंदी
+✅ Rule: Body (Close) level के पार हो, सिर्फ़ wick नहीं — बड़ी body + Volume ज़्यादा
+✅ Confirmation: Retest पर level hold + अगली candle का close level के बाहर
+✅ Stop Loss: Retest Low और breakout level के नीचे — price वापस range में = setup fail
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 66 — गैप ट्रेडिंग (Gap Up / Gap Down) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप कभी Fakeout में फँसे हो?
+
+(Educational purpose only, not financial advice)
