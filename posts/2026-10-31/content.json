@@ -1,0 +1,157 @@
+{
+  "topic": "Risk:Reward 1:2 ka maths (win rate vs RR)",
+  "slides": [
+    [
+      [
+        "tag",
+        "RISK:REWARD"
+      ],
+      [
+        "title",
+        "Sirf 4 Trade Jeet Kar Bhi Profit?"
+      ],
+      [
+        "text",
+        "Jawab Risk:Reward mein chhupa hai."
+      ],
+      [
+        "box",
+        "Aaj seekho: Risk:Reward 1:2"
+      ]
+    ],
+    [
+      [
+        "tag",
+        "BASICS"
+      ],
+      [
+        "title",
+        "Risk:Reward Kya Hota Hai?"
+      ],
+      [
+        "text",
+        "Jitna risk lete ho, uske muqable target kitna door hai."
+      ],
+      [
+        "box",
+        "Risk $10, Reward $20 = 1:2"
+      ],
+      [
+        "text",
+        "Pehle target tay karo, phir trade lo."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "MATHS"
+      ],
+      [
+        "title",
+        "Kitna Win Rate Chahiye?"
+      ],
+      [
+        "box",
+        "Breakeven win rate = 1 ÷ (1 + RR)"
+      ],
+      [
+        "list",
+        [
+          "RR 1:1 = 50% win rate",
+          "RR 1:2 = ~33% win rate",
+          "RR 1:3 = 25% win rate"
+        ]
+      ],
+      [
+        "text",
+        "Spread/commission ignore kiye hain."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "EXAMPLE"
+      ],
+      [
+        "title",
+        "10 Trade, Sirf 4 Jeete"
+      ],
+      [
+        "compare",
+        [
+          [
+            "RR 1:2: 4×$20 - 6×$10",
+            "Net = +$20",
+            "green"
+          ],
+          [
+            "RR 1:1: 4×$10 - 6×$10",
+            "Net = -$20",
+            "red"
+          ]
+        ]
+      ],
+      [
+        "text",
+        "Har trade mein risk $10. Sirf example hai, guarantee nahi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "PLAN"
+      ],
+      [
+        "title",
+        "Trade Se Pehle Target Nikaalo"
+      ],
+      [
+        "box",
+        "Target = Entry + (Risk × 2)"
+      ],
+      [
+        "list",
+        [
+          "Entry 1.0875, SL 1.0850",
+          "Risk = 25 pips",
+          "Target = 25 × 2 = 50 pips",
+          "Target = 1.0925"
+        ]
+      ],
+      [
+        "text",
+        "Sirf samajhne ka example, signal nahi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "AAPKI BAARI"
+      ],
+      [
+        "title",
+        "Aap Kitna RR Rakhte Ho?"
+      ],
+      [
+        "text",
+        "Comment mein batao: 1:1, 1:2 ya 1:3?"
+      ],
+      [
+        "cta",
+        "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"
+      ],
+      [
+        "disclaimer",
+        "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
+      ]
+    ]
+  ],
+  "narration": [
+    "क्या सिर्फ़ चालीस परसेंट ट्रेड जीतकर भी प्रॉफिट में रहा जा सकता है? जवाब रिस्क रिवॉर्ड में छुपा है। आज सीखो रिस्क रिवॉर्ड एक अनुपात दो।",
+    "रिस्क रिवॉर्ड का मतलब है, जितना रिस्क लेते हो, उसके मुकाबले टारगेट कितना दूर है। दस डॉलर रिस्क और बीस डॉलर रिवॉर्ड, यानी एक अनुपात दो।",
+    "ब्रेकईवन विन रेट निकालने का फ़ॉर्मूला है, एक भाग एक जमा आर आर। एक अनुपात एक में पचास परसेंट, एक अनुपात दो में लगभग तैंतीस परसेंट, और एक अनुपात तीन में पच्चीस परसेंट।",
+    "दस ट्रेड में चार जीते, छह हारे। एक अनुपात दो में चार गुणा बीस डॉलर, घटा छह गुणा दस डॉलर, बराबर बीस डॉलर का नेट। एक अनुपात एक में वही नतीजा माइनस बीस डॉलर। यह सिर्फ़ उदाहरण है, गारंटी नहीं।",
+    "ट्रेड से पहले टारगेट निकालो। एंट्री एक पॉइंट शून्य आठ सात पांच, स्टॉप लॉस एक पॉइंट शून्य आठ पांच शून्य, यानी पच्चीस पिप रिस्क। टारगेट पचास पिप, यानी एक पॉइंट शून्य नौ दो पांच। यह सिर्फ़ समझने का उदाहरण है।",
+    "अब आपकी बारी। आप कितना रिस्क रिवॉर्ड रखते हो, एक एक, एक दो या एक तीन? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
