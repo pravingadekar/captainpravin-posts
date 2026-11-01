@@ -1,0 +1,23 @@
+📉 Stock "सस्ता" लग रहा है, पर हर नया Low पिछले से नीचे बन रहा है? रुको — पहले Structure पढ़ो!
+मार्केट स्ट्रक्चर (Market Structure: HH-HL / LH-LL) — DAY 67 📓
+
+Price लहरों में चलता है — हर लहर का एक Swing High और Swing Low होता है।
+इन Highs-Lows का क्रम बताता है कि trend ऊपर है, नीचे है या sideways।
+
+✅ कहाँ बनता है: हर chart, हर timeframe पर — 5 min से Weekly तक
+✅ Signal: Neutral tool — HH+HL = Uptrend, LH+LL = Downtrend
+✅ Rule: BOS तभी माना जाए जब पिछला Swing High/Low candle Close से टूटे
+✅ Confirmation: BOS पर Volume बढ़े + retest में पुराना level hold हो
+✅ Stop Loss: नए Higher Low (HL) के थोड़ा नीचे
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 68 — एक नया advanced price-action lesson ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आपके favourite stock में अभी HH-HL चल रहा है या LH-LL?
+
+(Educational purpose only, not financial advice)
