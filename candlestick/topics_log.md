@@ -22,3 +22,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 27 | youtube | थ्री इनसाइड डाउन (Three Inside Down) | 2026-10-31
 - DAY 67 | instagram, facebook | मार्केट स्ट्रक्चर (Market Structure: HH-HL / LH-LL) | 2026-11-01
 - DAY 28 | youtube | थ्री आउटसाइड अप (Three Outside Up) | 2026-11-01
+- DAY 29 | youtube | थ्री आउटसाइड डाउन (Three Outside Down) | 2026-11-01
