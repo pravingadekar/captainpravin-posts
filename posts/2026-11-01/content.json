@@ -1,0 +1,152 @@
+{
+  "topic": "Pip, Lot aur Leverage simple bhasha mein",
+  "slides": [
+    [
+      [
+        "tag",
+        "FOREX BASICS"
+      ],
+      [
+        "title",
+        "Pip, Lot, Leverage: Confused?"
+      ],
+      [
+        "text",
+        "Ye 3 cheezein samjhe bina trade mat lo."
+      ],
+      [
+        "box",
+        "Aaj seekho: Pip, Lot aur Leverage"
+      ]
+    ],
+    [
+      [
+        "tag",
+        "PIP"
+      ],
+      [
+        "title",
+        "Pip Kya Hota Hai?"
+      ],
+      [
+        "text",
+        "Price ki sabse chhoti standard movement."
+      ],
+      [
+        "box",
+        "EURUSD 1.0850 se 1.0851 = 1 pip"
+      ],
+      [
+        "text",
+        "Zyadatar pairs mein 1 pip = 0.0001. JPY pairs mein 0.01."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "LOT SIZE"
+      ],
+      [
+        "title",
+        "Lot Ka Matlab Kya Hai?"
+      ],
+      [
+        "list",
+        [
+          "Standard 1.0 lot = 100,000 units",
+          "Mini 0.1 lot = 10,000 units",
+          "Micro 0.01 lot = 1,000 units"
+        ]
+      ],
+      [
+        "text",
+        "Lot jitna bada, pip ki value utni badi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "PIP VALUE"
+      ],
+      [
+        "title",
+        "1 Pip = Kitne Dollar?"
+      ],
+      [
+        "list",
+        [
+          "1.0 lot = $10 per pip",
+          "0.1 lot = $1 per pip",
+          "0.01 lot = $0.10 per pip"
+        ]
+      ],
+      [
+        "text",
+        "EURUSD ka approx example. 20 pip move x 0.01 lot = $2."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "LEVERAGE"
+      ],
+      [
+        "title",
+        "Leverage: Double-Edged"
+      ],
+      [
+        "box",
+        "1:100 = $100 se $10,000 position"
+      ],
+      [
+        "compare",
+        [
+          [
+            "Chhota margin",
+            "Bada position control",
+            "green"
+          ],
+          [
+            "Loss bhi bada",
+            "Account jaldi khatam",
+            "red"
+          ]
+        ]
+      ],
+      [
+        "text",
+        "Leverage sirf position size badhata hai."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "AAPKI BAARI"
+      ],
+      [
+        "title",
+        "Aap Kaunsa Lot Size Use Karte Ho?"
+      ],
+      [
+        "text",
+        "Comment mein batao: 0.01, 0.1 ya 1.0?"
+      ],
+      [
+        "cta",
+        "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"
+      ],
+      [
+        "disclaimer",
+        "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
+      ]
+    ]
+  ],
+  "narration": [
+    "पिप, लॉट और लीवरेज, तीनों में कन्फ्यूज़ हो? इनको समझे बिना ट्रेड मत लो। आज सीखो पिप, लॉट और लीवरेज।",
+    "पिप प्राइस की सबसे छोटी स्टैंडर्ड मूवमेंट है। यूरो डॉलर एक पॉइंट शून्य आठ पांच शून्य से एक पॉइंट शून्य आठ पांच एक हुआ, तो एक पिप। ज़्यादातर पेयर में एक पिप, शून्य पॉइंट शून्य शून्य शून्य एक होता है।",
+    "एक स्टैंडर्ड लॉट में एक लाख यूनिट होती हैं। मिनी लॉट में दस हज़ार, और माइक्रो लॉट में एक हज़ार यूनिट। लॉट जितना बड़ा, पिप की वैल्यू उतनी बड़ी।",
+    "यूरो डॉलर में एक लॉट पर एक पिप लगभग दस डॉलर का होता है। शून्य पॉइंट एक लॉट पर एक डॉलर, और शून्य पॉइंट शून्य एक लॉट पर दस सेंट। बीस पिप की मूवमेंट गुणा माइक्रो लॉट, यानी लगभग दो डॉलर।",
+    "लीवरेज एक अनुपात सौ का मतलब है, सौ डॉलर के मार्जिन से दस हज़ार डॉलर की पोज़ीशन। लेकिन लॉस भी उसी हिसाब से बड़ा हो सकता है। लीवरेज प्रॉफिट नहीं, सिर्फ़ पोज़ीशन साइज़ बढ़ाता है।",
+    "अब आपकी बारी। आप कौन सा लॉट साइज़ इस्तेमाल करते हो, शून्य पॉइंट शून्य एक, शून्य पॉइंट एक या एक? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
