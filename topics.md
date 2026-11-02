@@ -6,7 +6,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Stop Loss kahan lagayein (structure-based SL) (2026-10-30)
 - [x] Risk:Reward 1:2 ka maths (win rate vs RR) (2026-10-31)
 - [x] Pip, Lot aur Leverage simple bhasha mein (2026-11-01)
-- [ ] Forex market sessions IST mein (Tokyo, London, New York)
+- [x] Forex market sessions IST mein (Tokyo, London, New York) (2026-11-02)
 - [ ] Support aur Resistance kaise draw karein
 - [ ] Trend kaise pehchanein (Higher High / Higher Low)
 - [ ] Candlestick basics: body, wick, colour

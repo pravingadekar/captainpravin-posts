@@ -1,0 +1,19 @@
+{
+  "topic": "Forex market sessions IST mein (Tokyo, London, New York)",
+  "slides": [
+    [["tag","FOREX BASICS"],["title","Forex Kab Sabse Active Hota Hai?"],["text","Har time pe market ek jaisa nahi chalta."],["box","Aaj seekho: 3 sessions, IST time mein"]],
+    [["tag","TOKYO SESSION"],["title","Tokyo: Asian Session"],["box","Approx 5:30 AM se 2:30 PM IST"],["text","Yen pairs (USDJPY, EURJPY) mein zyada activity hoti hai."],["text","Aam taur par movement kam aur slow rehti hai."]],
+    [["tag","LONDON SESSION"],["title","London: Sabse Bada Session"],["box","Approx 1:30 PM se 10:30 PM IST"],["text","Sabse zyada volume yahin aata hai."],["text","EUR aur GBP pairs mein activity badhti hai."]],
+    [["tag","NEW YORK SESSION"],["title","New York: US Session"],["box","Approx 6:30 PM se 3:30 AM IST"],["text","USD news aur data isi time aate hain."],["text","Spread aur volatility news ke time badh sakti hai."]],
+    [["tag","OVERLAP"],["title","London + New York Overlap"],["box","Approx 6:30 PM se 10:30 PM IST"],["compare",[["Zyada volume","Zyada movement","green"],["Zyada risk","Fast moves, wide spread","red"]]],["text","Summer mein time 1 ghanta shift hota hai."]],
+    [["tag","AAPKI BAARI"],["title","Aap Kaunse Session Mein Trade Karte Ho?"],["text","Comment mein batao: Tokyo, London ya New York?"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "फॉरेक्स मार्केट हर समय एक जैसा नहीं चलता। कब ज़्यादा एक्टिविटी होती है, ये जानना ज़रूरी है। आज सीखो तीन सेशन, इंडियन टाइम में।",
+    "टोक्यो सेशन, यानी एशियन सेशन, लगभग सुबह साढ़े पांच बजे से दोपहर ढाई बजे तक चलता है। येन पेयर में एक्टिविटी ज़्यादा होती है, और मूवमेंट आमतौर पर धीमी रहती है।",
+    "लंदन सेशन सबसे बड़ा है। ये लगभग दोपहर डेढ़ बजे से रात साढ़े दस बजे तक चलता है। सबसे ज़्यादा वॉल्यूम यहीं आता है, और यूरो और पाउंड पेयर में एक्टिविटी बढ़ती है।",
+    "न्यूयॉर्क सेशन लगभग शाम साढ़े छह बजे से रात साढ़े तीन बजे तक चलता है। यूएस डॉलर की न्यूज़ और डेटा इसी समय आते हैं, और न्यूज़ के टाइम स्प्रेड और वोलैटिलिटी बढ़ सकती है।",
+    "लंदन और न्यूयॉर्क का ओवरलैप लगभग शाम साढ़े छह से रात साढ़े दस बजे तक होता है, यानी चार घंटे। यहां वॉल्यूम ज़्यादा होता है, लेकिन रिस्क भी ज़्यादा। गर्मियों में डेलाइट सेविंग की वजह से टाइम एक घंटा शिफ्ट होता है।",
+    "अब आपकी बारी। आप किस सेशन में ट्रेड करते हो, टोक्यो, लंदन या न्यूयॉर्क? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
