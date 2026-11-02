@@ -1,0 +1,23 @@
+⏸️ बड़ी candle के बाद छोटी candle "अंदर" छिप गई? Market साँस ले रहा है — अगला बड़ा move यहीं से शुरू हो सकता है!
+इनसाइड बार ब्रेकआउट (Inside Bar Breakout) — DAY 68 📓
+
+पहली बड़ी candle = Mother Candle, अगली छोटी candle की पूरी range (High-Low) उसके अंदर रहती है।
+Inside Bar खुद signal नहीं — असली signal Mother High या Mother Low का breakout है।
+
+✅ कहाँ बनता है: Trend के बीच (continuation) या Support / Resistance के पास
+✅ Signal: Neutral — Mother High break = तेजी, Mother Low break = मंदी की संभावना
+✅ Rule: Inside Bar का High, Mother High से नीचे और Low, Mother Low से ऊपर (wicks भी)
+✅ Confirmation: Mother High/Low के बाहर candle close + बढ़ता Volume
+✅ Stop Loss: Inside Bar Low के नीचे (aggressive) या Mother Low के नीचे (safe)
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 69 — एक और नया advanced price-action lesson ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप Inside Bar पर SL कहाँ रखते हो: IB Low या Mother Low?
+
+(Educational purpose only, not financial advice)
