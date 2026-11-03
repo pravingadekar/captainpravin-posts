@@ -1,0 +1,58 @@
+[
+  {
+    "ist": "2026-11-03T09:00:00+05:30",
+    "currency": "AUD",
+    "title": "Cash Rate",
+    "impact": "High",
+    "forecast": "4.85%",
+    "previous": "4.60%"
+  },
+  {
+    "ist": "2026-11-03T09:00:00+05:30",
+    "currency": "AUD",
+    "title": "RBA Monetary Policy Statement",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-03T09:00:00+05:30",
+    "currency": "AUD",
+    "title": "RBA Rate Statement",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-03T10:00:00+05:30",
+    "currency": "AUD",
+    "title": "RBA Press Conference",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-03T20:46:00+05:30",
+    "currency": "USD",
+    "title": "Congressional Elections",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-04T03:15:00+05:30",
+    "currency": "NZD",
+    "title": "Employment Change q/q",
+    "impact": "High",
+    "forecast": "0.4%",
+    "previous": "0.5%"
+  },
+  {
+    "ist": "2026-11-04T03:15:00+05:30",
+    "currency": "NZD",
+    "title": "Unemployment Rate",
+    "impact": "High",
+    "forecast": "5.5%",
+    "previous": "5.6%"
+  }
+]
