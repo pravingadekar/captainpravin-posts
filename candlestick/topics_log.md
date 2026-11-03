@@ -26,3 +26,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 68 | instagram, facebook | इनसाइड बार ब्रेकआउट (Inside Bar Breakout) | 2026-11-02
 - DAY 30 | youtube | बुलिश किकर (Bullish Kicker) | 2026-11-02
 - DAY 31 | youtube | बेयरिश किकर (Bearish Kicker) | 2026-11-02
+- DAY 69 | instagram, facebook | डबल बॉटम (Double Bottom Pattern) | 2026-11-03
+- DAY 32 | youtube | बुलिश बेल्ट होल्ड (Bullish Belt Hold) | 2026-11-03
+- DAY 33 | youtube | बेयरिश बेल्ट होल्ड (Bearish Belt Hold) | 2026-11-03
