@@ -7,7 +7,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Risk:Reward 1:2 ka maths (win rate vs RR) (2026-10-31)
 - [x] Pip, Lot aur Leverage simple bhasha mein (2026-11-01)
 - [x] Forex market sessions IST mein (Tokyo, London, New York) (2026-11-02)
-- [ ] Support aur Resistance kaise draw karein
+- [x] Support aur Resistance kaise draw karein (2026-11-03)
 - [ ] Trend kaise pehchanein (Higher High / Higher Low)
 - [ ] Candlestick basics: body, wick, colour
 - [ ] Pin bar / Hammer candle
