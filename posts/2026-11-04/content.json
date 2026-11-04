@@ -1,0 +1,19 @@
+{
+ "topic": "Trend kaise pehchanein (Higher High / Higher Low)",
+ "slides": [
+  [["tag","FOREX BASICS"],["title","Trend Kaise Pehchanein?"],["text","Chart upar ja raha hai ya neeche? Pehle yeh dekhna zaroori hai."],["box","Aaj seekho: Higher High / Higher Low"]],
+  [["tag","UPTREND"],["title","Uptrend: HH aur HL"],["text","Price ek ke baad ek upar ke peaks aur upar ke dips banata hai."],["list",["Peak 1: 100, Peak 2: 110, Peak 3: 120","Dip 1: 95, Dip 2: 103, Dip 3: 112","Peaks upar = Higher High (HH)","Dips upar = Higher Low (HL)"]],["box","HH + HL = Uptrend"]],
+  [["tag","DOWNTREND"],["title","Downtrend: LH aur LL"],["text","Price ek ke baad ek neeche ke peaks aur neeche ke dips banata hai."],["list",["Peak 1: 120, Peak 2: 110, Peak 3: 100","Dip 1: 112, Dip 2: 103, Dip 3: 95","Peaks neeche = Lower High (LH)","Dips neeche = Lower Low (LL)"]],["box","LH + LL = Downtrend"]],
+  [["tag","SIDEWAYS"],["title","Range: Koi Trend Nahi"],["text","Jab price ek hi zone ke beech upar-neeche hota hai, toh HH/HL ya LH/LL clear nahi banta."],["box","Range = price ek zone mein ghoom raha hai"],["text","Aise time pe beginners ko jaldbaazi se bachna chahiye."]],
+  [["tag","DHYAN RAKHO"],["title","Trend Badalne Ka Hint"],["compare",[["Uptrend mein","HL toota = kamzori","green"],["Downtrend mein","LH toota = kamzori","red"]]],["text","Trend pakka nahi hota. Koi bhi trade lene se pehle risk manage karo."]],
+  [["tag","AAPKI BAARI"],["title","Aaj Chart Pe Trend Kaisa Hai?"],["text","Comment mein batao: aaj chart pe trend up hai, down ya range?"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+ ],
+ "narration": [
+  "क्या आप जानते हो कि चार्ट अपट्रेंड में है या डाउनट्रेंड में? आज सीखो हायर हाई और हायर लो से ट्रेंड पहचानना।",
+  "अपट्रेंड में प्राइस ऊपर के पीक और ऊपर के डिप बनाता है। जैसे पीक सौ, एक सौ दस, एक सौ बीस, और डिप पंचानवे, एक सौ तीन, एक सौ बारह। इसे कहते हैं हायर हाई और हायर लो।",
+  "डाउनट्रेंड में उल्टा होता है। पीक एक सौ बीस, एक सौ दस, सौ, और डिप एक सौ बारह, एक सौ तीन, पंचानवे। इसे कहते हैं लोअर हाई और लोअर लो।",
+  "जब प्राइस एक ही ज़ोन के बीच ऊपर नीचे होता है, तो कोई साफ़ ट्रेंड नहीं बनता। इसे रेंज कहते हैं। ऐसे समय में जल्दबाज़ी से बचना चाहिए।",
+  "अपट्रेंड में हायर लो टूटे, या डाउनट्रेंड में लोअर हाई टूटे, तो ट्रेंड कमज़ोर हो सकता है। ट्रेंड पक्का नहीं होता, इसलिए रिस्क हमेशा मैनेज करो।",
+  "अब आपकी बारी। आज चार्ट पर ट्रेंड ऊपर है, नीचे है या रेंज? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+ ]
+}

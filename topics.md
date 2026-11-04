@@ -8,7 +8,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Pip, Lot aur Leverage simple bhasha mein (2026-11-01)
 - [x] Forex market sessions IST mein (Tokyo, London, New York) (2026-11-02)
 - [x] Support aur Resistance kaise draw karein (2026-11-03)
-- [ ] Trend kaise pehchanein (Higher High / Higher Low)
+- [x] Trend kaise pehchanein (Higher High / Higher Low) (2026-11-04)
 - [ ] Candlestick basics: body, wick, colour
 - [ ] Pin bar / Hammer candle
 - [ ] Engulfing pattern
