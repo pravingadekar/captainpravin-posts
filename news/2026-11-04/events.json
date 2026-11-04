@@ -1,0 +1,26 @@
+[
+  {
+    "ist": "2026-11-04T15:30:00+05:30",
+    "currency": "EUR",
+    "title": "Core CPI Flash Estimate y/y",
+    "impact": "Medium",
+    "forecast": "2.5%",
+    "previous": "2.5%"
+  },
+  {
+    "ist": "2026-11-04T15:30:00+05:30",
+    "currency": "EUR",
+    "title": "CPI Flash Estimate y/y",
+    "impact": "Medium",
+    "forecast": "4.0%",
+    "previous": "3.8%"
+  },
+  {
+    "ist": "2026-11-04T20:30:00+05:30",
+    "currency": "USD",
+    "title": "ISM Services PMI",
+    "impact": "Medium",
+    "forecast": "54.8",
+    "previous": "54.9"
+  }
+]
