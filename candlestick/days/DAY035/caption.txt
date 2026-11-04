@@ -1,0 +1,23 @@
+🟢 Uptrend में एक red candle देखकर घबरा गए? अगली candle उसी Open से ऊपर भागी तो कहानी बदल सकती है!
+सेपरेटिंग लाइन्स (Separating Lines) — DAY 35 📓
+
+पहले trend के उल्टा एक candle (pullback), फिर अगली candle ठीक उसी Open level से खुलकर trend की दिशा में भागती है।
+दोनों candles का Open एक ही — पर रंग बिल्कुल उल्टे।
+
+✅ कहाँ बनता है: चलते Uptrend में छोटे pullback के बाद (Downtrend में उल्टा रूप)
+✅ Signal: Bullish continuation (Downtrend वाला रूप = Bearish)
+✅ Rule: Red candle + Green candle जिसका Open ≈ Red का Open और Open ≈ Low
+✅ Confirmation: अगली candle Candle 2 के High के ऊपर close + Volume
+✅ Stop Loss: Candle 2 के Low (≈ Open) के थोड़ा नीचे
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 36 — अपसाइड तासुकी गैप (Upside Tasuki Gap) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — Separating Lines में दोनों candles का क्या same होता है?
+
+(Educational purpose only, not financial advice)
