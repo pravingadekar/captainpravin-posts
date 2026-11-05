@@ -1,0 +1,19 @@
+{
+ "topic": "Candlestick basics: body, wick, colour",
+ "slides": [
+  [["tag","FOREX BASICS"],["title","Candlestick Kaise Padhein?"],["text","Ek candle mein price ki poori kahani hoti hai. Chalo samjhein."],["box","Aaj seekho: Body, Wick aur Colour"]],
+  [["tag","ANATOMY"],["title","Candle ke 4 Price Points"],["text","Har candle ek time period (jaise 1 ghanta) dikhati hai."],["list",["Open: period ki shuruaati price","Close: period ki aakhri price","High: sabse upar gayi price","Low: sabse neeche gayi price"]],["box","Body = Open aur Close ke beech"]],
+  [["tag","BODY AUR WICK"],["title","Body aur Wick ka Maths"],["text","Example: Open 1.1000, Close 1.1040, High 1.1055, Low 1.0990."],["list",["Body = 1.1040 - 1.1000 = 40 pips","Upper wick = 1.1055 - 1.1040 = 15 pips","Lower wick = 1.1000 - 1.0990 = 10 pips","Poori range = 1.1055 - 1.0990 = 65 pips"]],["box","Wick = price ka try, jo wapas laut gaya"]],
+  [["tag","COLOUR"],["title","Candle ka Colour"],["compare",[["Bullish candle","Close, Open se upar","green"],["Bearish candle","Close, Open se neeche","red"]]],["text","Colour platform pe depend karta hai. Pehle check karo kaunsa colour kya dikhata hai."]],
+  [["tag","DHYAN RAKHO"],["title","Body Bada, Wick Chhota?"],["list",["Bada body = zyada ek-tarfa movement","Lamba wick = price wapas dhakeli gayi","Chhota body = dono taraf ki kheenchtaan"]],["text","Ek candle akeli kuch guarantee nahi karti. Context aur risk management zaroori hai."]],
+  [["tag","AAPKI BAARI"],["title","Aapki Last Candle Kaisi Thi?"],["text","Comment mein batao: aapke chart ki last candle ka body bada tha ya wick lamba?"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+ ],
+ "narration": [
+  "क्या आप जानते हो कि एक कैंडल में प्राइस की पूरी कहानी छुपी होती है? आज सीखो बॉडी, विक और कलर।",
+  "हर कैंडल के चार प्राइस पॉइंट होते हैं। ओपन, क्लोज़, हाई और लो। ओपन और क्लोज़ के बीच के हिस्से को बॉडी कहते हैं।",
+  "उदाहरण लो। ओपन एक पॉइंट एक ज़ीरो ज़ीरो ज़ीरो, क्लोज़ एक पॉइंट एक ज़ीरो चार ज़ीरो। तो बॉडी चालीस पिप्स की हुई। ऊपर की विक पंद्रह पिप्स और नीचे की विक दस पिप्स।",
+  "अगर क्लोज़ ओपन से ऊपर है, तो बुलिश कैंडल। अगर क्लोज़ ओपन से नीचे है, तो बेयरिश कैंडल। कलर प्लेटफ़ॉर्म पर निर्भर करता है, इसलिए पहले चेक कर लो।",
+  "बड़ी बॉडी मतलब ज़्यादा एकतरफ़ा मूवमेंट। लंबी विक मतलब प्राइस वापस धकेली गई। एक कैंडल अकेली कोई गारंटी नहीं देती, इसलिए रिस्क मैनेज करो।",
+  "अब आपकी बारी। आपके चार्ट की आखिरी कैंडल की बॉडी बड़ी थी या विक लंबी? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+ ]
+}
