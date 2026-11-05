@@ -32,3 +32,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 70 | instagram, facebook | डबल टॉप (Double Top Pattern) | 2026-11-04
 - DAY 34 | youtube | ऑन-नेक लाइन (On-Neck Line) | 2026-11-04
 - DAY 35 | youtube | सेपरेटिंग लाइन्स (Separating Lines) | 2026-11-04
+- DAY 71 | instagram, facebook | हेड एंड शोल्डर्स (Head & Shoulders Pattern) | 2026-11-05
+- DAY 36 | youtube | अपसाइड तासुकी गैप (Upside Tasuki Gap) | 2026-11-05
+- DAY 37 | youtube | डाउनसाइड तासुकी गैप (Downside Tasuki Gap) | 2026-11-05
