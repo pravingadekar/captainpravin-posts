@@ -1,0 +1,42 @@
+[
+  {
+    "ist": "2026-11-05T17:30:00+05:30",
+    "currency": "GBP",
+    "title": "BOE Monetary Policy Report",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-05T17:30:00+05:30",
+    "currency": "GBP",
+    "title": "Monetary Policy Summary",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-05T17:30:00+05:30",
+    "currency": "GBP",
+    "title": "MPC Official Bank Rate Votes",
+    "impact": "High",
+    "forecast": "7-0-2",
+    "previous": "3-0-6"
+  },
+  {
+    "ist": "2026-11-05T17:30:00+05:30",
+    "currency": "GBP",
+    "title": "Official Bank Rate",
+    "impact": "High",
+    "forecast": "4.00%",
+    "previous": "3.75%"
+  },
+  {
+    "ist": "2026-11-05T18:00:00+05:30",
+    "currency": "GBP",
+    "title": "BOE Gov Bailey Speaks",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  }
+]
