@@ -10,7 +10,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Support aur Resistance kaise draw karein (2026-11-03)
 - [x] Trend kaise pehchanein (Higher High / Higher Low) (2026-11-04)
 - [x] Candlestick basics: body, wick, colour (2026-11-05)
-- [ ] Pin bar / Hammer candle
+- [x] Pin bar / Hammer candle (2026-11-06)
 - [ ] Engulfing pattern
 - [ ] Doji ka matlab
 - [ ] Moving Average 50/200 basics

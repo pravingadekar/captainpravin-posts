@@ -1,0 +1,150 @@
+{
+  "topic": "Pin bar / Hammer candle",
+  "slides": [
+    [
+      [
+        "tag",
+        "CANDLESTICK"
+      ],
+      [
+        "title",
+        "Ek Candle Ki Lambi Wick Kya Batati Hai?"
+      ],
+      [
+        "text",
+        "Hammer aur Pin Bar ka raaz simple hai."
+      ],
+      [
+        "box",
+        "Aaj seekho: Pin bar / Hammer candle"
+      ]
+    ],
+    [
+      [
+        "tag",
+        "PEHCHAAN"
+      ],
+      [
+        "title",
+        "Hammer Candle Kaisi Dikhti Hai?"
+      ],
+      [
+        "list",
+        [
+          "Body chhoti, upar ki taraf",
+          "Neeche ki wick lambi (body ki 2x+)",
+          "Upar ki wick na ke barabar"
+        ]
+      ],
+      [
+        "text",
+        "Hathoda jaisi shape, isliye naam Hammer."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "EXAMPLE"
+      ],
+      [
+        "title",
+        "Numbers Se Samjho"
+      ],
+      [
+        "list",
+        [
+          "Low 1.0970, Open 1.1000",
+          "Close 1.1010, High 1.1012",
+          "Body = 10 pips",
+          "Neeche wick = 30 pips (3x body)",
+          "Upar wick = 2 pips"
+        ]
+      ],
+      [
+        "text",
+        "Price neeche gayi, phir wapas upar aayi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "KAHANI"
+      ],
+      [
+        "title",
+        "Lambi Wick Ka Matlab"
+      ],
+      [
+        "box",
+        "Sellers ne dhakela, buyers ne wapas khicha"
+      ],
+      [
+        "text",
+        "Pin bar mein wick price ka rejection dikhati hai."
+      ],
+      [
+        "text",
+        "Ye sirf ek clue hai, guarantee nahi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "SAHI JAGAH"
+      ],
+      [
+        "title",
+        "Context Sabse Zaroori"
+      ],
+      [
+        "compare",
+        [
+          [
+            "Support ke paas + confirmation",
+            "Zyada bharosemand",
+            "green"
+          ],
+          [
+            "Beech chart mein akeli candle",
+            "Kamzor clue",
+            "red"
+          ]
+        ]
+      ],
+      [
+        "text",
+        "Agli candle se confirm karo. Risk hamesha manage karo."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "AAPKI BAARI"
+      ],
+      [
+        "title",
+        "Aapne Chart Par Hammer Kahan Dekha?"
+      ],
+      [
+        "text",
+        "Comment mein batao. Kya wo support ke paas tha?"
+      ],
+      [
+        "cta",
+        "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"
+      ],
+      [
+        "disclaimer",
+        "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
+      ]
+    ]
+  ],
+  "narration": [
+    "क्या आप जानते हो कि एक कैंडल की लंबी विक पूरी कहानी बता देती है? आज सीखो पिन बार और हैमर कैंडल।",
+    "हैमर कैंडल की बॉडी छोटी होती है और ऊपर की तरफ़ होती है। नीचे की विक लंबी होती है, बॉडी से कम से कम दो गुना, और ऊपर की विक लगभग नहीं होती।",
+    "उदाहरण लो। लो एक पॉइंट ज़ीरो नौ सात ज़ीरो, ओपन एक पॉइंट एक ज़ीरो ज़ीरो ज़ीरो, क्लोज़ एक पॉइंट एक ज़ीरो एक ज़ीरो। बॉडी दस पिप्स, नीचे की विक तीस पिप्स और ऊपर की विक दो पिप्स।",
+    "इसका मतलब है कि सेलर्स ने प्राइस को नीचे धकेला, लेकिन बायर्स ने उसे वापस ऊपर खींच लिया। विक प्राइस का रिजेक्शन दिखाती है। यह सिर्फ़ एक क्लू है, गारंटी नहीं।",
+    "कॉन्टेक्स्ट सबसे ज़रूरी है। सपोर्ट के पास और अगली कैंडल से कन्फर्मेशन मिले तो ज़्यादा भरोसेमंद है। चार्ट के बीच में अकेली कैंडल कमज़ोर क्लू है। रिस्क हमेशा मैनेज करो।",
+    "अब आपकी बारी। आपने चार्ट पर हैमर कहाँ देखा, क्या वो सपोर्ट के पास था? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
