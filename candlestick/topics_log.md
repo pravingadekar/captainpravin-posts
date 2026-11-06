@@ -35,3 +35,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 71 | instagram, facebook | हेड एंड शोल्डर्स (Head & Shoulders Pattern) | 2026-11-05
 - DAY 36 | youtube | अपसाइड तासुकी गैप (Upside Tasuki Gap) | 2026-11-05
 - DAY 37 | youtube | डाउनसाइड तासुकी गैप (Downside Tasuki Gap) | 2026-11-05
+- DAY 72 | instagram, facebook | इनवर्स हेड एंड शोल्डर्स (Inverse Head & Shoulders) | 2026-11-06
+- DAY 38 | youtube | बुलिश अबैंडन्ड बेबी (Bullish Abandoned Baby) | 2026-11-06
+- DAY 39 | youtube | बेयरिश अबैंडन्ड बेबी (Bearish Abandoned Baby) | 2026-11-06
