@@ -1,0 +1,58 @@
+[
+  {
+    "ist": "2026-11-06T19:00:00+05:30",
+    "currency": "CAD",
+    "title": "Employment Change",
+    "impact": "High",
+    "forecast": "14.6K",
+    "previous": "-68.3K"
+  },
+  {
+    "ist": "2026-11-06T19:00:00+05:30",
+    "currency": "CAD",
+    "title": "Unemployment Rate",
+    "impact": "High",
+    "forecast": "6.5%",
+    "previous": "6.5%"
+  },
+  {
+    "ist": "2026-11-06T19:00:00+05:30",
+    "currency": "USD",
+    "title": "Average Hourly Earnings m/m",
+    "impact": "High",
+    "forecast": "0.3%",
+    "previous": "0.1%"
+  },
+  {
+    "ist": "2026-11-06T19:00:00+05:30",
+    "currency": "USD",
+    "title": "Non-Farm Employment Change",
+    "impact": "High",
+    "forecast": "65K",
+    "previous": "29K"
+  },
+  {
+    "ist": "2026-11-06T19:00:00+05:30",
+    "currency": "USD",
+    "title": "Unemployment Rate",
+    "impact": "High",
+    "forecast": "4.2%",
+    "previous": "4.2%"
+  },
+  {
+    "ist": "2026-11-06T21:30:00+05:30",
+    "currency": "JPY",
+    "title": "BOJ Gov Ueda Speaks",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-07T03:15:00+05:30",
+    "currency": "NZD",
+    "title": "Parliamentary Elections",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  }
+]
