@@ -1,0 +1,23 @@
+🟢 एक ही pattern कभी काम करता है, कभी fail — फ़र्क सिर्फ़ जगह (Location) का है!
+पैटर्न + सपोर्ट-रेजिस्टेंस (Pattern + Support-Resistance) — DAY 41 📓
+
+चार्ट के बीच में बना pattern कमज़ोर होता है।
+वही pattern मज़बूत Support या Resistance zone पर बने तो ज़्यादा अहम हो जाता है।
+
+✅ कहाँ काम आता है: Support zone, Resistance zone और range के किनारों पर
+✅ Signal: Neutral — Support पर Bullish pattern, Resistance पर Bearish pattern
+✅ Rule: Zone से price कम से कम 2-3 बार पलटा हो + zone एक area है, line नहीं
+✅ Confirmation: अगली candle pattern के High के ऊपर (Support पर) + Volume
+✅ Stop Loss: Pattern Low के नीचे और Zone के बाहर
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 42 — पैटर्न + वॉल्यूम (Pattern + Volume) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप Support कैसे draw करते हो, line या zone?
+
+(Educational purpose only, not financial advice)
