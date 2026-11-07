@@ -11,7 +11,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Trend kaise pehchanein (Higher High / Higher Low) (2026-11-04)
 - [x] Candlestick basics: body, wick, colour (2026-11-05)
 - [x] Pin bar / Hammer candle (2026-11-06)
-- [ ] Engulfing pattern
+- [x] Engulfing pattern (2026-11-07)
 - [ ] Doji ka matlab
 - [ ] Moving Average 50/200 basics
 - [ ] RSI overbought/oversold ka sahi use

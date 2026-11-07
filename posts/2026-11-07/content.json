@@ -1,0 +1,150 @@
+{
+  "topic": "Engulfing pattern",
+  "slides": [
+    [
+      [
+        "tag",
+        "CANDLESTICK"
+      ],
+      [
+        "title",
+        "Kya Ek Candle Doosri Ko Nigal Sakti Hai?"
+      ],
+      [
+        "text",
+        "Engulfing pattern ka simple raaz."
+      ],
+      [
+        "box",
+        "Aaj seekho: Engulfing pattern"
+      ]
+    ],
+    [
+      [
+        "tag",
+        "PEHCHAAN"
+      ],
+      [
+        "title",
+        "Engulfing Candle Kaisi Hoti Hai?"
+      ],
+      [
+        "list",
+        [
+          "Pehli candle chhoti hoti hai",
+          "Doosri candle ki body badi hoti hai",
+          "Doosri body pehli body ko dhak leti hai"
+        ]
+      ],
+      [
+        "text",
+        "Sirf body dekho, wick nahi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "EXAMPLE"
+      ],
+      [
+        "title",
+        "Numbers Se Samjho"
+      ],
+      [
+        "list",
+        [
+          "Candle 1 (red): Open 1.1020, Close 1.1000",
+          "Body 1 = 20 pips",
+          "Candle 2 (green): Open 1.0995, Close 1.1030",
+          "Body 2 = 35 pips",
+          "1.0995 < 1.1000 aur 1.1030 > 1.1020"
+        ]
+      ],
+      [
+        "text",
+        "Doosri body ne pehli ko poora dhak liya."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "KAHANI"
+      ],
+      [
+        "title",
+        "Is Pattern Ka Matlab"
+      ],
+      [
+        "box",
+        "Pehle sellers aage the, phir buyers ne control liya"
+      ],
+      [
+        "text",
+        "Bullish engulfing mein momentum badalta dikhta hai."
+      ],
+      [
+        "text",
+        "Ye sirf ek clue hai, guarantee nahi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "SAHI JAGAH"
+      ],
+      [
+        "title",
+        "Context Sabse Zaroori"
+      ],
+      [
+        "compare",
+        [
+          [
+            "Support ke paas + confirmation",
+            "Zyada bharosemand",
+            "green"
+          ],
+          [
+            "Beech chart mein akeli candle",
+            "Kamzor clue",
+            "red"
+          ]
+        ]
+      ],
+      [
+        "text",
+        "Bearish engulfing ulta hota hai. Risk hamesha manage karo."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "AAPKI BAARI"
+      ],
+      [
+        "title",
+        "Aapne Engulfing Candle Kahan Dekhi?"
+      ],
+      [
+        "text",
+        "Comment mein batao. Kya wo support ya resistance ke paas thi?"
+      ],
+      [
+        "cta",
+        "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"
+      ],
+      [
+        "disclaimer",
+        "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
+      ]
+    ]
+  ],
+  "narration": [
+    "क्या एक कैंडल दूसरी कैंडल को पूरा निगल सकती है? आज सीखो एंगल्फ़िंग पैटर्न।",
+    "एंगल्फ़िंग में पहली कैंडल छोटी होती है और दूसरी कैंडल की बॉडी बड़ी होती है। दूसरी बॉडी पहली बॉडी को पूरा ढक लेती है। सिर्फ़ बॉडी देखो, विक नहीं।",
+    "उदाहरण लो। पहली रेड कैंडल, ओपन एक पॉइंट एक ज़ीरो दो ज़ीरो, क्लोज़ एक पॉइंट एक ज़ीरो ज़ीरो ज़ीरो, यानी बीस पिप्स की बॉडी। दूसरी ग्रीन कैंडल, ओपन एक पॉइंट ज़ीरो नौ नौ पाँच, क्लोज़ एक पॉइंट एक ज़ीरो तीन ज़ीरो, यानी पैंतीस पिप्स की बॉडी। इसने पहली बॉडी को पूरा ढक लिया।",
+    "इसका मतलब है कि पहले सेलर्स आगे थे, फिर बायर्स ने कंट्रोल ले लिया। मोमेंटम बदलता दिख सकता है। यह सिर्फ़ एक क्लू है, गारंटी नहीं।",
+    "कॉन्टेक्स्ट सबसे ज़रूरी है। सपोर्ट के पास और कन्फर्मेशन मिले तो ज़्यादा भरोसेमंद है। चार्ट के बीच में अकेली कैंडल कमज़ोर क्लू है। बेयरिश एंगल्फ़िंग इसका उल्टा होता है। रिस्क हमेशा मैनेज करो।",
+    "अब आपकी बारी। आपने एंगल्फ़िंग कैंडल कहाँ देखी, क्या वो सपोर्ट या रेज़िस्टेंस के पास थी? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
