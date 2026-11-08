@@ -41,3 +41,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 73 | instagram, facebook | बुल फ्लैग पैटर्न (Bull Flag Pattern) | 2026-11-07
 - DAY 40 | youtube | हिक्काके पैटर्न (Hikkake Pattern) | 2026-11-07
 - DAY 41 | youtube | पैटर्न + सपोर्ट-रेजिस्टेंस (Pattern + Support-Resistance) | 2026-11-07
+- DAY 74 | instagram, facebook | बेयर फ्लैग पैटर्न (Bear Flag Pattern) | 2026-11-08
