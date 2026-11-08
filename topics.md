@@ -12,7 +12,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Candlestick basics: body, wick, colour (2026-11-05)
 - [x] Pin bar / Hammer candle (2026-11-06)
 - [x] Engulfing pattern (2026-11-07)
-- [ ] Doji ka matlab
+- [x] Doji ka matlab (2026-11-08)
 - [ ] Moving Average 50/200 basics
 - [ ] RSI overbought/oversold ka sahi use
 - [ ] Spread aur commission: hidden cost

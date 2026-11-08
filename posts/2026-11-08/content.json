@@ -1,0 +1,150 @@
+{
+  "topic": "Doji ka matlab",
+  "slides": [
+    [
+      [
+        "tag",
+        "CANDLESTICK"
+      ],
+      [
+        "title",
+        "Jab Buyers Aur Sellers Barabar Ho Jayein?"
+      ],
+      [
+        "text",
+        "Doji candle ka simple raaz."
+      ],
+      [
+        "box",
+        "Aaj seekho: Doji ka matlab"
+      ]
+    ],
+    [
+      [
+        "tag",
+        "PEHCHAAN"
+      ],
+      [
+        "title",
+        "Doji Candle Kaisi Hoti Hai?"
+      ],
+      [
+        "list",
+        [
+          "Open aur Close lagbhag same",
+          "Body bahut chhoti ya na ke barabar",
+          "Upar aur neeche wick ho sakti hai"
+        ]
+      ],
+      [
+        "text",
+        "Plus (+) ya cross jaisi shape banti hai."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "EXAMPLE"
+      ],
+      [
+        "title",
+        "Numbers Se Samjho"
+      ],
+      [
+        "list",
+        [
+          "Open 1.1000, Close 1.1002",
+          "Body = 2 pips",
+          "High 1.1030, Low 1.0970",
+          "Poori range = 60 pips",
+          "Body range ka sirf 3% hai"
+        ]
+      ],
+      [
+        "text",
+        "Din bhar khinchtaan, par close wahin ke wahin."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "KAHANI"
+      ],
+      [
+        "title",
+        "Doji Ka Matlab"
+      ],
+      [
+        "box",
+        "Buyers aur sellers ki takkar barabar rahi"
+      ],
+      [
+        "text",
+        "Market mein uljhan ya pause dikhta hai."
+      ],
+      [
+        "text",
+        "Ye sirf ek clue hai, guarantee nahi."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "SAHI JAGAH"
+      ],
+      [
+        "title",
+        "Context Sabse Zaroori"
+      ],
+      [
+        "compare",
+        [
+          [
+            "Badi move ke baad + confirmation",
+            "Zyada kaam ka clue",
+            "green"
+          ],
+          [
+            "Sideways chart mein akeli doji",
+            "Kamzor clue",
+            "red"
+          ]
+        ]
+      ],
+      [
+        "text",
+        "Agli candle ka wait karo. Risk hamesha manage karo."
+      ]
+    ],
+    [
+      [
+        "tag",
+        "AAPKI BAARI"
+      ],
+      [
+        "title",
+        "Aapne Doji Kahan Dekhi?"
+      ],
+      [
+        "text",
+        "Comment mein batao. Uske baad agli candle kaisi thi?"
+      ],
+      [
+        "cta",
+        "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"
+      ],
+      [
+        "disclaimer",
+        "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
+      ]
+    ]
+  ],
+  "narration": [
+    "क्या बायर्स और सेलर्स बिल्कुल बराबर हो सकते हैं? आज सीखो डोजी कैंडल का मतलब।",
+    "डोजी कैंडल में ओपन और क्लोज़ लगभग एक जैसे होते हैं। बॉडी बहुत छोटी होती है, और ऊपर नीचे विक हो सकती है।",
+    "उदाहरण लो। ओपन एक पॉइंट एक ज़ीरो ज़ीरो ज़ीरो, क्लोज़ एक पॉइंट एक ज़ीरो ज़ीरो दो, यानी बॉडी सिर्फ़ दो पिप्स। हाई एक पॉइंट एक ज़ीरो तीन ज़ीरो, लो एक पॉइंट ज़ीरो नौ सात ज़ीरो, यानी रेंज साठ पिप्स।",
+    "इसका मतलब है कि बायर्स और सेलर्स की टक्कर बराबर रही। मार्केट में उलझन या पॉज़ दिखता है। यह सिर्फ़ एक क्लू है, गारंटी नहीं।",
+    "कॉन्टेक्स्ट सबसे ज़रूरी है। बड़ी मूव के बाद और कन्फर्मेशन मिले तो ज़्यादा काम का क्लू है। साइडवेज़ चार्ट में अकेली डोजी कमज़ोर है। अगली कैंडल का इंतज़ार करो, और रिस्क हमेशा मैनेज करो।",
+    "अब आपकी बारी। आपने डोजी कैंडल कहाँ देखी, और उसके बाद अगली कैंडल कैसी थी? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
