@@ -1,0 +1,23 @@
+🔊 Pattern तो बना… पर उसके पीछे दम है या नहीं? ये Volume बताता है!
+पैटर्न + वॉल्यूम (Pattern + Volume) — DAY 42 📓
+
+Volume = एक candle में कितने shares खरीदे-बेचे गए।
+ऊँचे Volume के साथ बना pattern बताता है कि बड़े players सच में आए हैं।
+
+✅ कहाँ काम आता है: Support / Resistance zone पर बने patterns में
+✅ Signal: Neutral — दिशा pattern बताता है, ताक़त Volume बताता है
+✅ Rule: Pattern candle का Volume पिछले 20 candles के Average से कम से कम 1.5x
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Volume Average से ऊपर
+✅ Stop Loss: Bullish pattern के Low के नीचे
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 43 — पैटर्न + ट्रेंडलाइन (Pattern + Trendline) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप chart पर Volume indicator लगाते हो या नहीं?
+
+(Educational purpose only, not financial advice)

@@ -42,3 +42,5 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 40 | youtube | हिक्काके पैटर्न (Hikkake Pattern) | 2026-11-07
 - DAY 41 | youtube | पैटर्न + सपोर्ट-रेजिस्टेंस (Pattern + Support-Resistance) | 2026-11-07
 - DAY 74 | instagram, facebook | बेयर फ्लैग पैटर्न (Bear Flag Pattern) | 2026-11-08
+- DAY 42 | youtube | पैटर्न + वॉल्यूम (Pattern + Volume) | 2026-11-08
+- DAY 43 | youtube | पैटर्न + ट्रेंडलाइन (Pattern + Trendline) | 2026-11-08

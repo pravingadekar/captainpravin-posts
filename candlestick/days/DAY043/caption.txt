@@ -1,0 +1,23 @@
+📈 Trendline को छूते ही candle पलटी? यही वो जगह है जहाँ smart traders नज़र रखते हैं!
+पैटर्न + ट्रेंडलाइन (Pattern + Trendline) — DAY 43 📓
+
+Trendline बढ़ते Lows (Uptrend) या गिरते Highs (Downtrend) को जोड़ने वाली तिरछी line है।
+जब Hammer जैसा pattern ठीक trendline के touch पर बने, तो trend और pattern एक ही दिशा दिखाते हैं।
+
+✅ कहाँ बनता है: Rising trendline के 2nd / 3rd touch पर (Downtrend में falling line पर)
+✅ Signal: Neutral — Rising line पर Bullish pattern, Falling line पर Bearish pattern
+✅ Rule: Line कम से कम 2 Swing Lows जोड़े + pattern की wick line को छुए, Close line के ऊपर
+✅ Confirmation: अगली candle pattern के High के ऊपर Close + बढ़ता Volume
+✅ Stop Loss: Pattern Low और trendline दोनों के नीचे
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 44 — पैटर्न + RSI (Pattern + RSI) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप trendline wicks से draw करते हो या bodies से?
+
+(Educational purpose only, not financial advice)
