@@ -1,0 +1,23 @@
+📉 RSI 30 के नीचे है तो तुरंत खरीद लो? रुको! पहले ये combination समझो।
+पैटर्न + RSI (Pattern + RSI) — DAY 44 📓
+
+RSI (14) एक momentum indicator है जो 0 से 100 के बीच चलता है — 70 के ऊपर Overbought, 30 के नीचे Oversold zone।
+जब Support पर Hammer जैसा Bullish pattern बने और RSI 30 के नीचे से ऊपर मुड़े, तो price और momentum दोनों एक ही बात कहते हैं।
+
+✅ कहाँ बनता है: Downtrend के अंत में Support पर (RSI <30), Uptrend के अंत में Resistance पर (RSI >70)
+✅ Signal: Neutral — Support + Oversold पर Bullish, Resistance + Overbought पर Bearish
+✅ Rule: Pattern सही बना हो + RSI zone से वापस मुड़े; Bonus: Price Lower Low, RSI Higher Low = Bullish Divergence
+✅ Confirmation: अगली candle pattern High के ऊपर Close करे + RSI 30 के ऊपर लौटे
+✅ Stop Loss: Pattern के Low के नीचे (थोड़ा buffer) — RSI देखकर SL मत खिसकाओ
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता। RSI अकेला buy/sell signal नहीं है — strong trend में Oversold भी लंबे समय तक Oversold रह सकता है।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 45 — मल्टी-टाइमफ्रेम कन्फर्मेशन (Multi-Timeframe Confirmation) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप RSI की setting 14 रखते हो या कुछ और?
+
+(Educational purpose only, not financial advice)
