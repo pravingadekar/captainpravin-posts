@@ -13,7 +13,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Pin bar / Hammer candle (2026-11-06)
 - [x] Engulfing pattern (2026-11-07)
 - [x] Doji ka matlab (2026-11-08)
-- [ ] Moving Average 50/200 basics
+- [x] Moving Average 50/200 basics (2026-11-09)
 - [ ] RSI overbought/oversold ka sahi use
 - [ ] Spread aur commission: hidden cost
 - [ ] Major, minor, exotic pairs

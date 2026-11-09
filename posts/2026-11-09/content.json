@@ -1,0 +1,19 @@
+{
+  "topic": "Moving Average 50/200 basics",
+  "slides": [
+    [["tag","INDICATORS"],["title","Chart Par Do Lines Ka Raaz Kya Hai?"],["text","50 aur 200 Moving Average ka simple matlab."],["box","Aaj seekho: Moving Average 50/200"]],
+    [["tag","MA KYA HAI"],["title","Moving Average Kaise Banta Hai?"],["text","Last N candles ke close ka average."],["list",["5 close: 1.1000, 1.1010, 1.1020","1.1030, 1.1040","Total = 5.5100"]],["box","MA(5) = 5.5100 ÷ 5 = 1.1020"]],
+    [["tag","50 VS 200"],["title","50 MA Aur 200 MA Mein Farak"],["list",["50 MA = last 50 candles ka average","200 MA = last 200 candles ka average","Chhota number = tez, thoda noisy","Bada number = slow, smooth"]],["text","50 MA short-term, 200 MA long-term trend dikhata hai."]],
+    [["tag","CROSSOVER"],["title","Golden Cross Aur Death Cross"],["compare",[["Golden Cross","50 MA, 200 MA ke upar","green"],["Death Cross","50 MA, 200 MA ke neeche","red"]]],["text","Ye sirf context hai, trade signal nahi."]],
+    [["tag","LIMIT"],["title","Moving Average Ki Limits"],["list",["MA lagging hai: purane data par bana","Sideways market mein bar bar cross","Akela MA kaafi nahi, confirmation chahiye"]],["box","Risk hamesha manage karo"]],
+    [["tag","AAPKI BAARI"],["title","Aap Kaunsa MA Use Karte Ho?"],["text","50, 200 ya koi aur? Comment mein batao!"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "चार्ट पर दो लाइनों का राज़ क्या है? आज सीखो पचास और दो सौ मूविंग एवरेज का मतलब।",
+    "मूविंग एवरेज पिछली एन कैंडल्स के क्लोज़ का एवरेज होता है। मान लो पाँच क्लोज़ हैं: एक पॉइंट एक ज़ीरो ज़ीरो ज़ीरो से एक पॉइंट एक ज़ीरो चार ज़ीरो तक। जोड़ पाँच पॉइंट पाँच एक ज़ीरो, और पाँच से भाग देने पर एक पॉइंट एक ज़ीरो दो ज़ीरो।",
+    "पचास एमए पिछली पचास कैंडल्स का एवरेज है, और दो सौ एमए पिछली दो सौ कैंडल्स का। छोटा नंबर तेज़ और थोड़ा नॉइज़ी होता है, बड़ा नंबर धीमा और स्मूद। पचास शॉर्ट टर्म और दो सौ लॉन्ग टर्म ट्रेंड दिखाता है।",
+    "जब पचास एमए दो सौ एमए के ऊपर क्रॉस करे, तो उसे गोल्डन क्रॉस कहते हैं। नीचे क्रॉस करे तो डेथ क्रॉस। ये सिर्फ़ कॉन्टेक्स्ट है, ट्रेड सिग्नल नहीं।",
+    "मूविंग एवरेज लैगिंग है, क्योंकि यह पुराने डेटा पर बनता है। साइडवेज़ मार्केट में लाइनें बार बार क्रॉस करती हैं। अकेला एमए काफ़ी नहीं, कन्फर्मेशन चाहिए। और रिस्क हमेशा मैनेज करो।",
+    "अब आपकी बारी। आप कौनसा मूविंग एवरेज इस्तेमाल करते हो, पचास, दो सौ या कोई और? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
