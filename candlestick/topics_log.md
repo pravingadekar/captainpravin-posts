@@ -47,3 +47,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 75 | instagram, facebook | असेंडिंग ट्रायंगल पैटर्न (Ascending Triangle Pattern) | 2026-11-09
 - DAY 44 | youtube | पैटर्न + RSI (Pattern + RSI) | 2026-11-09
 - DAY 45 | youtube | मल्टी-टाइमफ्रेम कन्फर्मेशन (Multi-Timeframe Confirmation) | 2026-11-09
+- DAY 76 | instagram, facebook | डिसेंडिंग ट्रायंगल पैटर्न (Descending Triangle Pattern) | 2026-11-10
