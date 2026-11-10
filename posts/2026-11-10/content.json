@@ -1,0 +1,19 @@
+{
+  "topic": "RSI overbought/oversold ka sahi use",
+  "slides": [
+    [["tag","INDICATORS"],["title","RSI 70 Par Sell? Itna Aasan Nahi!"],["text","RSI overbought/oversold ka sahi matlab."],["box","Aaj seekho: RSI ka sahi use"]],
+    [["tag","RSI KYA HAI"],["title","RSI Kya Batata Hai?"],["list",["Momentum indicator, scale 0 se 100","Default setting: 14 candles","Recent gains vs losses ko compare karta hai"]],["box","RSI = 100 - 100 ÷ (1 + RS)"]],
+    [["tag","MATHS"],["title","RSI Ka Chhota Example"],["list",["Avg gain = 0.6, avg loss = 0.4","RS = 0.6 ÷ 0.4 = 1.5","RSI = 100 - 100 ÷ 2.5"]],["box","RSI = 100 - 40 = 60"]],
+    [["tag","LEVELS"],["title","70 Aur 30 Ka Matlab"],["compare",[["RSI 70 se upar","Overbought: tez upar","red"],["RSI 30 se neeche","Oversold: tez neeche","green"]]],["text","Ye reversal ka signal nahi hai."]],
+    [["tag","SAHI USE"],["title","RSI Ko Sahi Tarah Use Karo"],["list",["Strong trend mein RSI 70 se upar reh sakta hai","Trend direction pehle dekho","Support/resistance se confirmation lo"]],["box","Stop loss aur risk manage karo"]],
+    [["tag","AAPKI BAARI"],["title","Aap RSI Kaise Use Karte Ho?"],["text","14 period ya koi aur setting? Comment mein batao!"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "आर एस आई सत्तर पर सेल करना चाहिए? इतना आसान नहीं है! आज सीखो आर एस आई का सही इस्तेमाल।",
+    "आर एस आई एक मोमेंटम इंडिकेटर है, जिसका स्केल ज़ीरो से सौ तक होता है। डिफ़ॉल्ट सेटिंग चौदह कैंडल्स की है, और यह हाल के गेन और लॉस की तुलना करता है।",
+    "मान लो एवरेज गेन ज़ीरो पॉइंट छह है और एवरेज लॉस ज़ीरो पॉइंट चार। तो आर एस डेढ़ हुआ, और आर एस आई सौ माइनस चालीस, यानी साठ।",
+    "आर एस आई सत्तर से ऊपर हो तो उसे ओवरबॉट कहते हैं, और तीस से नीचे हो तो ओवरसोल्ड। इसका मतलब सिर्फ़ इतना है कि मूव तेज़ था। यह रिवर्सल का सिग्नल नहीं है।",
+    "स्ट्रॉन्ग ट्रेंड में आर एस आई सत्तर से ऊपर भी टिक सकता है। इसलिए पहले ट्रेंड की दिशा देखो, और सपोर्ट रेज़िस्टेंस से कन्फर्मेशन लो। स्टॉप लॉस और रिस्क हमेशा मैनेज करो।",
+    "अब आपकी बारी। आप आर एस आई कैसे इस्तेमाल करते हो, चौदह पीरियड या कोई और सेटिंग? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}

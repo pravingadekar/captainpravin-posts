@@ -14,7 +14,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Engulfing pattern (2026-11-07)
 - [x] Doji ka matlab (2026-11-08)
 - [x] Moving Average 50/200 basics (2026-11-09)
-- [ ] RSI overbought/oversold ka sahi use
+- [x] RSI overbought/oversold ka sahi use (2026-11-10)
 - [ ] Spread aur commission: hidden cost
 - [ ] Major, minor, exotic pairs
 - [ ] Revenge trading se kaise bachein
