@@ -1,0 +1,23 @@
+🤔 हर trade में कितने shares लेने चाहिए? अंदाज़े से quantity लेना ही सबसे बड़ा risk है!
+पोज़िशन साइज़िंग (Position Sizing) — DAY 47 📓
+
+Quantity मन से नहीं, Stop Loss की दूरी से तय होती है।
+SL लगे तो loss हमेशा पहले से तय ₹ amount (जैसे capital का 1%) तक ही रहे।
+
+✅ कहाँ लागू होता है: हर trade में — SL तय होने के बाद, entry से पहले
+✅ Signal: Neutral — ये signal नहीं, quantity तय करने का नियम है
+✅ Rule: Quantity = Max Risk ₹ ÷ (Entry − Stop Loss), हमेशा नीचे round करो
+✅ Confirmation: Pattern confirm हो + Entry × Qty आपके capital के अंदर (leverage से बचो)
+✅ Stop Loss: Pattern के Low/High से — SL बड़ा तो Qty छोटी, SL छोटा तो Qty बड़ी
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 48 — ट्रेडिंग साइकोलॉजी (Trading Psychology) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप quantity कैसे तय करते हो: अंदाज़े से या formula से?
+
+(Educational purpose only, not financial advice)

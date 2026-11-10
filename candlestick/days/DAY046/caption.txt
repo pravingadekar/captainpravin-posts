@@ -1,0 +1,23 @@
+🛑 Pattern सही था, फिर भी account खाली? गलती pattern में नहीं — Risk में थी!
+रिस्क मैनेजमेंट (Risk Management) — DAY 46 📓
+
+Trade से पहले तय करो कि गलत होने पर कितना नुकसान सहोगे — और वो छोटा व fixed हो।
+Candlestick pattern entry देता है, Risk Management आपका capital बचाता है।
+
+✅ कहाँ लागू होता है: हर trade में — Uptrend हो या Downtrend, entry से पहले
+✅ Signal: Neutral — ये signal नहीं, हर trade का safety rule है
+✅ Rule: एक trade पर capital का max 1-2% risk | Risk = Entry − Stop Loss
+✅ Confirmation: Confirmation candle + R:R कम से कम 1:2, वरना trade skip
+✅ Stop Loss: Pattern के Low के नीचे (Bearish में High के ऊपर) — और उसे कभी दूर मत खिसकाओ
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 47 — पोज़िशन साइज़िंग (Position Sizing) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप एक trade पर capital का कितना % risk करते हो?
+
+(Educational purpose only, not financial advice)
