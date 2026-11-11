@@ -50,3 +50,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 76 | instagram, facebook | डिसेंडिंग ट्रायंगल पैटर्न (Descending Triangle Pattern) | 2026-11-10
 - DAY 46 | youtube | रिस्क मैनेजमेंट (Risk Management) | 2026-11-10
 - DAY 47 | youtube | पोज़िशन साइज़िंग (Position Sizing) | 2026-11-10
+- DAY 77 | instagram, facebook | सिमेट्रिकल ट्रायंगल (Symmetrical Triangle Pattern) | 2026-11-11
+- DAY 48 | youtube | ट्रेडिंग साइकोलॉजी (Trading Psychology) | 2026-11-11
+- DAY 49 | youtube | ट्रेडिंग की आम गलतियाँ (Common Mistakes) | 2026-11-11
