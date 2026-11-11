@@ -15,7 +15,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Doji ka matlab (2026-11-08)
 - [x] Moving Average 50/200 basics (2026-11-09)
 - [x] RSI overbought/oversold ka sahi use (2026-11-10)
-- [ ] Spread aur commission: hidden cost
+- [x] Spread aur commission: hidden cost (2026-11-11)
 - [ ] Major, minor, exotic pairs
 - [ ] Revenge trading se kaise bachein
 - [ ] Overtrading ke signs

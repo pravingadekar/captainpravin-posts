@@ -1,0 +1,19 @@
+{
+  "topic": "Spread aur commission: hidden cost",
+  "slides": [
+    [["tag","FOREX BASICS"],["title","Trade Khulte Hi Loss Kyun Dikhta Hai?"],["text","Wajah hai spread. Ye ek hidden cost hai."],["box","Aaj seekho: Spread aur commission"]],
+    [["tag","SPREAD KYA HAI"],["title","Spread = Ask - Bid"],["list",["Bid = broker jis rate par kharidta hai","Ask = broker jis rate par bechta hai","Dono ka fark broker ki kamai hai"]],["box","1.10012 - 1.10000 = 1.2 pips"]],
+    [["tag","COST KA MATHS"],["title","Spread Ki Cost Kitni?"],["list",["EURUSD, 0.10 lot = $1 / pip","Spread 1.2 pips","Cost = 1.2 × $1 = $1.20 per trade","20 trades = $24 (example)"]],["text","Trade shuru hote hi itna minus se start."]],
+    [["tag","COMMISSION"],["title","Commission Kya Hoti Hai?"],["compare",[["Standard account","Spread zyada, fee nahi","green"],["Raw / ECN account","Spread kam, fee alag","red"]]],["text","Kisi account mein cost zero nahi hoti."]],
+    [["tag","SAHI TULNA"],["title","Total Cost Compare Karo"],["list",["Standard: 1.2 pips = $1.20 (0.10 lot)","Raw: 0.1 pip = $0.10","Commission example = $0.70","Raw total = $0.80"]],["box","Spread + commission = total cost"]],
+    [["tag","AAPKI BAARI"],["title","Aap Cost Check Karte Ho?"],["text","Spread dekhte ho ya sirf chart? Comment mein batao!"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "ट्रेड खोलते ही लॉस क्यों दिखता है? इसकी वजह है स्प्रेड, एक हिडन कॉस्ट। आज सीखो स्प्रेड और कमीशन।",
+    "स्प्रेड मतलब ऐस्क माइनस बिड। बिड वो रेट है जिस पर ब्रोकर खरीदता है, और ऐस्क वो जिस पर बेचता है। जैसे बिड एक पॉइंट एक ज़ीरो ज़ीरो ज़ीरो ज़ीरो और ऐस्क एक पॉइंट एक ज़ीरो ज़ीरो एक दो, तो स्प्रेड एक पॉइंट दो पिप्स।",
+    "यूरो डॉलर पर ज़ीरो पॉइंट एक ज़ीरो लॉट में एक पिप की वैल्यू एक डॉलर होती है। स्प्रेड एक पॉइंट दो पिप्स मतलब एक पॉइंट दो ज़ीरो डॉलर हर ट्रेड। बीस ट्रेड में यह चौबीस डॉलर हो जाता है, यह सिर्फ़ एक उदाहरण है।",
+    "स्टैंडर्ड अकाउंट में स्प्रेड ज़्यादा होता है और कमीशन नहीं। रॉ या ई सी एन अकाउंट में स्प्रेड कम होता है, लेकिन कमीशन अलग से लगता है। कॉस्ट किसी में भी ज़ीरो नहीं होती।",
+    "उदाहरण: रॉ अकाउंट में स्प्रेड ज़ीरो पॉइंट एक पिप यानी ज़ीरो पॉइंट एक ज़ीरो डॉलर, और कमीशन ज़ीरो पॉइंट सात ज़ीरो डॉलर। कुल ज़ीरो पॉइंट आठ ज़ीरो डॉलर। हमेशा स्प्रेड और कमीशन जोड़कर टोटल कॉस्ट कंपेयर करो।",
+    "अब आपकी बारी। आप ट्रेड से पहले स्प्रेड चेक करते हो, या सिर्फ़ चार्ट देखते हो? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
