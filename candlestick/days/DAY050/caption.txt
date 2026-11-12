@@ -1,0 +1,23 @@
+🧪 Real पैसा लगाने से पहले अपनी strategy का test किया है? नहीं किया तो ये lesson ज़रूर देखो!
+बैकटेस्टिंग (Backtesting) — DAY 50 📓
+
+अपने pattern / strategy को पुराने chart data पर, तय नियमों के साथ test करना।
+बिना पैसा लगाए पता चलता है — Win Rate कितनी, R:R कैसा, और कमज़ोरी कहाँ है।
+
+✅ किस पर लागू: हर setup — Bullish और Bearish दोनों
+✅ Signal: Positive Expectancy = नियमों में edge (guarantee नहीं)
+✅ Rule: Entry, SL, Target पहले लिखो — chart candle-by-candle, आगे मत झाँको
+✅ Confirmation: कम से कम 50-100 trades + Uptrend/Downtrend/Sideways तीनों में test
+✅ Stop Loss: हर trade में पहले से तय — नतीजा R में लिखो (+2R / −1R)
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। अच्छा backtest भी future की guarantee नहीं; पहले paper trade / छोटी quantity। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 51 — ट्रेडिंग जर्नल (Trading Journal) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आपने अपनी strategy कितने trades पर test की है?
+
+(Educational purpose only, not financial advice)
