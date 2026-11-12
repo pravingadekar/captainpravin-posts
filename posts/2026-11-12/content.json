@@ -1,0 +1,19 @@
+{
+  "topic": "Major, minor, exotic pairs",
+  "slides": [
+    [["tag","FOREX BASICS"],["title","Sab Pairs Ek Jaise Hote Hain?"],["text","Nahi! Pairs ke 3 type hote hain, aur cost alag."],["box","Aaj seekho: Major, Minor, Exotic"]],
+    [["tag","MAJOR PAIRS"],["title","Major Pairs: USD Wale"],["list",["EURUSD, GBPUSD, USDJPY","USDCHF, AUDUSD, USDCAD, NZDUSD","Total 7 major pairs","Sabse zyada volume, spread kam"]],["box","Beginners ke liye sabse simple"]],
+    [["tag","MINOR PAIRS"],["title","Minor Pairs: Bina USD Ke"],["list",["EURGBP, EURJPY, GBPJPY","AUDNZD, EURCHF","Major currencies ka cross","Spread major se thoda zyada"]],["text","Inhe cross pairs bhi kehte hain."]],
+    [["tag","EXOTIC PAIRS"],["title","Exotic: Major + Chhoti Currency"],["list",["USDTRY, USDZAR, USDMXN","Volume kam, spread bahut zyada","Price tezi se jump kar sakti hai","Risk aur cost dono zyada"]],["box","Pehle basics, phir exotic"]],
+    [["tag","COST COMPARE"],["title","Spread Ka Fark Dekho"],["compare",[["Major (example)","Spread 1 pip = $1 (0.10 lot)","green"],["Exotic (example)","Spread 30 pips = $30 (0.10 lot)","red"]]],["text","Ye sirf example hai. Real spread broker par depend karta hai."]],
+    [["tag","AAPKI BAARI"],["title","Aap Kaunsa Pair Dekhte Ho?"],["text","Major, minor ya exotic? Comment mein batao!"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "क्या सारे फॉरेक्स पेयर्स एक जैसे होते हैं? नहीं! पेयर्स के तीन टाइप होते हैं, और उनकी कॉस्ट अलग होती है। आज सीखो मेजर, माइनर और एक्ज़ोटिक।",
+    "मेजर पेयर्स में हमेशा यू एस डॉलर होता है, जैसे यूरो डॉलर, पाउंड डॉलर और डॉलर येन। कुल सात मेजर पेयर्स हैं। इनमें वॉल्यूम सबसे ज़्यादा और स्प्रेड कम होता है।",
+    "माइनर पेयर्स में यू एस डॉलर नहीं होता। जैसे यूरो पाउंड, यूरो येन और पाउंड येन। इन्हें क्रॉस पेयर्स भी कहते हैं, और इनका स्प्रेड मेजर से थोड़ा ज़्यादा होता है।",
+    "एक्ज़ोटिक पेयर्स में एक मेजर करेंसी और एक छोटी करेंसी होती है, जैसे डॉलर रैंड या डॉलर पेसो। इनमें वॉल्यूम कम, स्प्रेड बहुत ज़्यादा और प्राइस तेज़ी से जंप कर सकता है। रिस्क और कॉस्ट दोनों ज़्यादा होते हैं।",
+    "उदाहरण के लिए, मेजर पेयर पर स्प्रेड एक पिप हो और ज़ीरो पॉइंट एक ज़ीरो लॉट में एक पिप एक डॉलर का हो, तो कॉस्ट एक डॉलर। एक्ज़ोटिक पर स्प्रेड तीस पिप हो तो कॉस्ट तीस डॉलर। यह सिर्फ़ उदाहरण है, असली स्प्रेड ब्रोकर पर निर्भर करता है।",
+    "अब आपकी बारी। आप कौन सा पेयर देखते हो, मेजर, माइनर या एक्ज़ोटिक? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
