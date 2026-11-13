@@ -56,3 +56,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 78 | instagram, facebook | राइजिंग वेज (Rising Wedge Pattern) | 2026-11-12
 - DAY 50 | youtube | बैकटेस्टिंग (Backtesting) | 2026-11-12
 - DAY 51 | youtube | ट्रेडिंग जर्नल (Trading Journal) | 2026-11-12
+- DAY 79 | instagram, facebook | फॉलिंग वेज (Falling Wedge Pattern) | 2026-11-13
