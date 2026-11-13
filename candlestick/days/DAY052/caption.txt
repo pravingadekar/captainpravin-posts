@@ -1,0 +1,23 @@
+📉 हर गिरावट में खरीदने की जल्दी? पहले देखो price किस Moving Average पर रुका है!
+पैटर्न + मूविंग एवरेज (Pattern + Moving Average) — DAY 52 📓
+
+20 EMA छोटा trend, 50 SMA बड़ा trend दिखाता है — दोनों मिलकर बताते हैं market किस दिशा में है।
+Uptrend के pullback में 20 EMA पर बना Bullish Engulfing / Hammer = trend के साथ entry का मौका।
+
+✅ कहाँ बनता है: Uptrend के pullback या Downtrend के bounce में 20/50 MA के पास
+✅ Signal: Neutral — MA के ऊपर Bullish pattern = Bullish, MA के नीचे Bearish pattern = Bearish
+✅ Rule: wick MA को छुए पर Close MA के सही तरफ हो + 20 EMA, 50 SMA के ऊपर (uptrend में)
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Volume साथ दे
+✅ Stop Loss: Pattern Low के नीचे (MA के भी नीचे) | R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। Flat या उलझी हुई MAs = sideways, वहाँ signal कमज़ोर। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 53 — पैटर्न + VWAP (Pattern + VWAP) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप 20 EMA use करते हो या 50 SMA?
+
+(Educational purpose only, not financial advice)

@@ -1,0 +1,23 @@
+⚡ Intraday में सबसे ज़्यादा देखी जाने वाली line — क्या आप इसे pattern के साथ use करते हो?
+पैटर्न + VWAP (Pattern + VWAP) — DAY 53 📓
+
+VWAP = दिन का volume के हिसाब से औसत भाव — 9:15 से गिना जाता है और हर दिन reset होता है।
+Trend day में price जब pullback करके VWAP छूए और वहीं Hammer / Engulfing बने, तो level + pattern एक साथ बोलते हैं।
+
+✅ कहाँ बनता है: Uptrend day में VWAP = dynamic Support, Downtrend day में dynamic Resistance
+✅ Signal: Neutral — VWAP के ऊपर Bullish pattern = Bullish, नीचे Bearish pattern = Bearish
+✅ Rule: wick VWAP छू सकती है, पर candle VWAP के पार Close करे
+✅ Confirmation: अगली candle pattern High के ऊपर Close + बढ़ता Volume
+✅ Stop Loss: pattern के Low के नीचे (VWAP के भी नीचे) | R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। Flat VWAP वाले sideways दिन में ये setup कमज़ोर होता है। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 54 ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप intraday में VWAP use करते हो या नहीं?
+
+(Educational purpose only, not financial advice)
