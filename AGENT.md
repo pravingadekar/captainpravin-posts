@@ -1,21 +1,28 @@
 # Daily post routine (for the cloud agent)
 
 Brand: **Trade With Captain Pravin** (@tradewithcaptainpravin). Audience: Indian beginners learning forex.
-Language: Hinglish (Roman script). Educational only.
+Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (Roman script). Educational only.
 
 ## Steps (run once per day, ~8:00 AM IST, before the first slot at 10:00 AM)
 
 1. `D=$(TZ=Asia/Kolkata date +%F)`. If `posts/$D/` already exists with `reel.mp4`, skip to step 6.
 2. Pick the first unchecked topic in `topics.md`; tick it as `- [x] <topic> ($D)`.
-3. Write `posts/$D/content.json` with exactly 6 slides, same shape as `posts/2026-10-29/content.json`:
-   - Slide 1: hook (`tag`, `title` as a question/bold claim, short `text`, `box` "Aaj seekho: ...").
+3. Write `posts/$D/content.json` with exactly 6 slides, same shape as `samples/hindi_demo/content.json`.
+   All slide text is simple spoken Hindi in Devanagari (बोलचाल वाली हिंदी, not shuddh/textbook Hindi). Write English
+   trading words in Devanagari (स्टॉप लॉस, लॉट साइज़, रिस्क, पिप) except short codes that stay Latin: SL, TP, EURUSD,
+   XAUUSD, RSI, YouTube, LIVE. Digits stay 0-9 (1.0875, $10, 1%).
+   - Slide 1: hook (`tag`, `title` as a question/bold claim, short `text`, `box` "आज सीखो: ...").
    - Slides 2-5: one idea each, with a concrete number/example. Use `list`, `box`, `compare` (colors `green`/`red`).
-   - Slide 6: `tag` "AAPKI BAARI", engagement question as `title`, `text`,
-     `cta` exactly "Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!",
-     `disclaimer` exactly: "Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."
-   - Keep titles under ~45 chars and list items under ~40 chars. Use only plain ASCII plus ÷ × % $ ₹ in slide text:
-     NO emoji and NO arrows (→) — Poppins has no glyph for them.
+   - Slide 6: `tag` "आपकी बारी", engagement question as `title`, `text`,
+     `cta` exactly "फ़ॉलो + सब्सक्राइब करो। रोज़ रात 9 बजे YouTube LIVE!",
+     `disclaimer` exactly: "डिस्क्लेमर: सिर्फ शैक्षिक कंटेंट। यह फाइनेंशियल सलाह नहीं है। Forex/CFD ट्रेडिंग में बहुत ज़्यादा रिस्क है, आपका पैसा डूब सकता है।"
+   - Keep titles under ~40 characters and list items under ~35. NO emoji and NO arrows (→); ÷ × % $ ₹ are fine.
    - Double-check every number and formula.
+   - Add `"bg"`: a list of exactly 6 short English image prompts, one per slide, describing a photo scene that
+     matches that slide (e.g. "frustrated young Indian trader in front of laptop with red falling candlestick chart",
+     "calculator and notebook with lot size math beside a laptop showing a forex chart"). Concrete objects and
+     people, Indian context where people appear. Never ask for text, numbers, logos, brand names, real people,
+     money piles or luxury (no lifestyle/profit imagery). make_post.py adds the style and fetches them.
    - Add `"narration"`: a list of exactly 6 voiceover lines, one per slide, spoken by a Hindi female voice
      (ElevenLabs). Write them in Devanagari, with English trading words transliterated (ट्रेड, रिस्क, स्टॉप लॉस,
      लॉट साइज़) and numbers spelled as words (एक परसेंट, दस डॉलर) so the voice pronounces them correctly.
@@ -32,9 +39,15 @@ Language: Hinglish (Roman script). Educational only.
    python3 -m pip install -q -r requirements.txt   # if PIL fails with "_imaging": add --force-reinstall
    python3 tools/make_post.py posts/$D
    ```
+   Slides are rendered with headless Chrome (found automatically; otherwise Playwright Chromium is installed on
+   first use). Background photos come from a free image service limited to one image per 45 s, so the first render
+   takes ~5 minutes; they are cached in `posts/$D/bg/` and commit with the post. If it prints
+   "WARNING: no background photo", re-run once (cached ones are skipped); if it still fails, the slide uses plain
+   navy, which is acceptable, and say so in your final message.
    It must print "with voice" (needs `ELEVENLABS_API_KEY`, set in the environment; never print it). If the voice
    step fails, retry once; if it still fails, render with `--no-voice` so the post still goes out, and say so in
-   your final message. Open every `slideN.png` and look at it. Text must not overflow the frame, overlap the footer, or show empty boxes.
+   your final message. Open every `slideN.png` and look at it. Hindi must read correctly (no broken matras or
+   empty boxes), text must not overflow the frame or overlap the footer, and the photo must suit the slide.
    Fix content.json and re-render until clean. Then commit (`Post $D: <topic>`), `git pull --rebase origin main`, and push
    to `main` (another routine pushes to this repo too; on a rejected push, pull --rebase and retry up to 3 times).
 6. Confirm `https://raw.githubusercontent.com/pravingadekar/captainpravin-posts/main/posts/$D/slide1.png` and
