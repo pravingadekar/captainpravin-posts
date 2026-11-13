@@ -1,0 +1,19 @@
+{
+  "topic": "Revenge trading se kaise bachein",
+  "slides": [
+    [["tag","TRADING PSYCHOLOGY"],["title","Loss Ke Baad Turant Trade?"],["text","Gussa ya badla lene ki jaldi sabse mehngi galti hai."],["box","Aaj seekho: Revenge trading se bachna"]],
+    [["tag","REVENGE TRADING"],["title","Revenge Trading Kya Hai?"],["list",["Loss ke baad badla lene ki trade","Plan ke bina, sirf gusse mein","Lot size achanak badha dena","Setup nahi, emotion chalta hai"]],["box","Market se badla nahi liya jaata"]],
+    [["tag","WARNING SIGNS"],["title","Ye 4 Signs Pehchano"],["list",["Loss ke turant baad nayi trade","Stop loss hata dena ya door karna","Double lot se loss recover karna","Dil tez, haath kaanpte hue click"]],["text","Ek bhi sign mile to ruk jao."]],
+    [["tag","MATHS"],["title","Revenge Se Loss Kitna Badhta Hai"],["compare",[["Plan: $1,000 account","1% risk = $10 loss","green"],["Revenge: lot double","2% risk = $20 loss","red"]]],["text","Loss ke baad double lot se agla loss bhi double ho jaata hai."]],
+    [["tag","SOLUTION"],["title","Revenge Se Bachne Ke Rules"],["list",["Loss ke baad 15 min screen se door","Daily max loss 3% fix karo","2 loss lagatar = aaj ki trading band","Journal mein emotion likho"]],["box","Rules pehle, emotion baad mein"]],
+    [["tag","AAPKI BAARI"],["title","Loss Ke Baad Aap Kya Karte Ho?"],["text","Kya kabhi revenge trade ki hai? Comment mein batao!"],["cta","Follow + Subscribe karo. Roz raat 9 baje YouTube LIVE!"],["disclaimer","Disclaimer: Sirf educational content. Financial advice nahi. Forex/CFD trading mein high risk hai, aapka paisa doob sakta hai."]]
+  ],
+  "narration": [
+    "लॉस के बाद तुरंत नया ट्रेड लेने की जल्दी? गुस्से में लिया गया ट्रेड सबसे महंगी गलती बन सकता है। आज सीखो रिवेंज ट्रेडिंग से कैसे बचें।",
+    "रिवेंज ट्रेडिंग यानी लॉस के बाद बदला लेने के लिए बिना प्लान के ट्रेड करना। इसमें लॉट साइज़ अचानक बढ़ जाता है और सेटअप नहीं, इमोशन चलता है। मार्केट से बदला नहीं लिया जाता।",
+    "ये चार निशान पहचानो। लॉस के तुरंत बाद नया ट्रेड, स्टॉप लॉस हटाना, डबल लॉट से लॉस रिकवर करना, और दिल तेज़ धड़कते हुए क्लिक करना। एक भी निशान मिले तो रुक जाओ।",
+    "उदाहरण देखो। एक हज़ार डॉलर के अकाउंट पर एक परसेंट रिस्क यानी दस डॉलर का लॉस। रिवेंज में लॉट डबल कर दिया तो दो परसेंट रिस्क, यानी बीस डॉलर का लॉस।",
+    "बचने के रूल्स। लॉस के बाद पंद्रह मिनट स्क्रीन से दूर रहो। रोज़ का मैक्सिमम लॉस तीन परसेंट फ़िक्स करो। लगातार दो लॉस हों तो आज की ट्रेडिंग बंद। और जर्नल में अपनी इमोशन लिखो।",
+    "अब आपकी बारी। लॉस के बाद आप क्या करते हो? क्या कभी रिवेंज ट्रेड की है? कमेंट में बताओ। फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+  ]
+}
