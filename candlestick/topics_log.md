@@ -59,3 +59,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 79 | instagram, facebook | फॉलिंग वेज (Falling Wedge Pattern) | 2026-11-13
 - DAY 52 | youtube | पैटर्न + मूविंग एवरेज (Pattern + Moving Average) | 2026-11-13
 - DAY 53 | youtube | पैटर्न + VWAP (Pattern + VWAP) | 2026-11-13
+- DAY 80 | instagram, facebook | कप एंड हैंडल (Cup and Handle Pattern) | 2026-11-14
