@@ -1,0 +1,23 @@
+📊 Support पर Hammer दिखा, पर momentum साथ है या नहीं? MACD से check करना सीखो!
+पैटर्न + MACD (Pattern + MACD) — DAY 55 📓
+
+MACD = 12 EMA − 26 EMA, Signal = उसका 9 EMA, Histogram = दोनों का फ़र्क।
+Pattern बताता है "कहाँ", MACD बताता है "momentum किधर" — दोनों मिलें तो setup मज़बूत।
+
+✅ कहाँ बनता है: Downtrend के बाद Support पर (Bullish), Uptrend के बाद Resistance पर (Bearish)
+✅ Signal: Neutral — Bullish crossover = तेजी, Bearish crossover = मंदी
+✅ Rule: Support पर Hammer/Engulfing + MACD Line, Signal Line को नीचे से ऊपर cross करे
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Histogram हरा + Volume ↑
+✅ Stop Loss: Pattern के Low के नीचे | R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। MACD lagging है, sideways market में बार-बार गलत crossover देता है। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 56 ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप MACD की कौन सी setting use करते हो?
+
+(Educational purpose only, not financial advice)

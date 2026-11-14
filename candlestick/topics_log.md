@@ -60,3 +60,5 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 52 | youtube | पैटर्न + मूविंग एवरेज (Pattern + Moving Average) | 2026-11-13
 - DAY 53 | youtube | पैटर्न + VWAP (Pattern + VWAP) | 2026-11-13
 - DAY 80 | instagram, facebook | कप एंड हैंडल (Cup and Handle Pattern) | 2026-11-14
+- DAY 54 | youtube | पैटर्न + फिबोनाची (Pattern + Fibonacci Retracement) | 2026-11-14
+- DAY 55 | youtube | पैटर्न + MACD (Pattern + MACD) | 2026-11-14
