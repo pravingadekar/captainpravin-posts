@@ -1,0 +1,151 @@
+{
+ "date": "2026-11-14",
+ "topic": "Overtrading ke signs",
+ "theme": "captain",
+ "footer": "Sirf educational. Financial advice nahi. Forex me high risk hai.|n|AI generated video | Trade With Captain Pravin",
+ "hook": "Kahin aap overtrading to nahi kar rahe?",
+ "poster": {
+  "title_small": "Overtrading ke",
+  "title_big": "3 SIGNS",
+  "steps": [
+   {
+    "label": "Sign 01",
+    "title": "Revenge trade",
+    "sub": "Loss ke baad turant nayi entry.",
+    "on": [
+     2,
+     0.0
+    ]
+   },
+   {
+    "label": "Sign 02",
+    "title": "Bina setup entry",
+    "sub": "Din bhar boredom me trades.",
+    "on": [
+     2,
+     0.5
+    ]
+   },
+   {
+    "label": "Sign 03",
+    "title": "Lot size badhana",
+    "sub": "Loss cover karne ki jaldi.",
+    "on": [
+     3,
+     0.0
+    ]
+   }
+  ]
+ },
+ "cta": {
+  "text": "Follow @tradewithcaptainpravin",
+  "on": [
+   3,
+   0.62
+  ]
+ },
+ "shots": [
+  {
+   "dialogue": "Agar chart dekhte hi *trade* lene ka mann karta hai, to ye teen *signs* suno.",
+   "dialogue_hi": "अगर चार्ट देखते ही ट्रेड लेने का मन करता है, तो ये तीन साइन्स सुनो।",
+   "broll": [
+    {
+     "at": 0.2,
+     "to": 0.62,
+     "card": {
+      "type": "chart",
+      "label": "Chart khula...",
+      "title": "EURUSD  M5",
+      "bubble": "Ek aur trade?"
+     }
+    }
+   ]
+  },
+  {
+   "dialogue": "Pehla, loss ke baad turant *revenge* trade. Doosra, bina setup ke din bhar *entry*.",
+   "dialogue_hi": "पहला, लॉस के बाद तुरंत रिवेंज ट्रेड। दूसरा, बिना सेटअप के दिन भर एंट्री।",
+   "broll": [
+    {
+     "at": 0.04,
+     "to": 0.48,
+     "card": {
+      "type": "trades",
+      "label": "Sign 01 · Revenge trade",
+      "title": "trade_log",
+      "rows": [
+       [
+        "10:05",
+        "EURUSD",
+        "-$20",
+        "red"
+       ],
+       [
+        "10:07",
+        "EURUSD",
+        "-$25",
+        "red"
+       ],
+       [
+        "10:09",
+        "GBPUSD",
+        "-$30",
+        "red"
+       ]
+      ],
+      "note": "Plan kahan gaya?"
+     }
+    },
+    {
+     "at": 0.55,
+     "to": 1.0,
+     "card": {
+      "type": "counter",
+      "label": "Sign 02 · Bina setup",
+      "to": 14,
+      "warn": 8,
+      "caption": "Aaj ke trades",
+      "note": "Setup: ek bhi nahi"
+     }
+    }
+   ]
+  },
+  {
+   "dialogue": "Teesra, loss cover karne ke liye *lot* size badhana. Kam trade, *better* trade. Follow karo.",
+   "dialogue_hi": "तीसरा, लॉस कवर करने के लिए लॉट साइज़ बढ़ाना। कम ट्रेड, बेहतर ट्रेड। फ़ॉलो करो।",
+   "broll": [
+    {
+     "at": 0.0,
+     "to": 0.5,
+     "card": {
+      "type": "lots",
+      "label": "Sign 03 · Lot size",
+      "title": "lot_size",
+      "bars": [
+       [
+        "Trade 1",
+        "0.01",
+        0.12
+       ],
+       [
+        "Trade 2",
+        "0.05",
+        0.4
+       ],
+       [
+        "Trade 3",
+        "0.20",
+        0.95
+       ]
+      ],
+      "note": "Risk 1% se 8% ho gaya"
+     }
+    }
+   ]
+  }
+ ],
+ "host_crop_y": 150,
+ "face": [
+  540,
+  470
+ ]
+}

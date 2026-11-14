@@ -1,3 +1,8 @@
 tools/reel_frames/
 __pycache__/
 samples/voice_test_post/*.png
+# Pravin's own photos and the test folder (has clips of his face) stay local
+character/pravin_ref/
+character/host_pravin_*
+character/host_trader_v1.png
+reels/test-*/
