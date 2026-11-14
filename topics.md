@@ -18,7 +18,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Spread aur commission: hidden cost (2026-11-11)
 - [x] Major, minor, exotic pairs (2026-11-12)
 - [x] Revenge trading se kaise bachein (2026-11-13)
-- [ ] Overtrading ke signs
+- [x] Overtrading ke signs (2026-11-14)
 - [ ] Trading journal kyun zaroori hai
 - [ ] Demo vs live account psychology
 - [ ] News trading ka risk (NFP, CPI)
