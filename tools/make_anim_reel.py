@@ -1,4 +1,5 @@
-"""Animated weekly-news reel (hook + one sliding card per big event + recap), 1080x1920, voiced.
+"""Animated forex-news reel (hook + one sliding card per big event [+ safety] + recap), 1080x1920, voiced.
+Used for both the weekly (2-4 cards) and the daily (1-3 cards, optional "safety" scene) news reels.
 
 Usage: python3 tools/make_anim_reel.py <DIR> [--no-voice] [--voice-dir DIR_WITH_0..N_audio]
 
@@ -10,8 +11,11 @@ anim.json:
     {"ist": "<copied exactly from events.json>", "what": "US Retail Sales",
      "sub": "Log kitna kharch kar rahe hain?", "pairs": "USD | GOLD | EURUSD", "star": false}
   ],
-  "narration": [hook line, one line per event, closing line]   (Devanagari, for the voice)
+  "mode": "daily" | "weekly",
+  "safety": ["News se 15 min pehle naya trade nahi", ...]   optional, 3-4 short items -> its own scene
+  "narration": [hook line, one line per event, (safety line,) closing line]   (Devanagari, for the voice)
 }
+Cards show "Forecast vs Pichhla" bars when events.json has numeric forecast/previous for that event.
 Day/time labels and flags are computed from "ist" + events.json; an "ist" not in events.json is an error.
 """
 import json, math, os, random, shutil, subprocess, sys, tempfile
@@ -80,6 +84,13 @@ def scaled_paste(img, layer, s, cx, cy):
     L = layer.resize((max(1, int(layer.width * s)), max(1, int(layer.height * s))), Image.BICUBIC)
     img.alpha_composite(L, (int(cx - L.width / 2), int(cy - L.height / 2)))
 
+def num(v):
+    try:
+        return float(str(v).strip().replace("%", "").replace("K", "").replace("M", "").replace("B", "").replace("T", ""))
+    except (TypeError, ValueError):
+        return None
+
+
 def label_for(ist):
     """Day label + time. Before 4 AM IST counts as the previous day's late night."""
     t = datetime.fromisoformat(ist)
@@ -105,7 +116,16 @@ class Reel:
             if any(w in e["title"] for e in evs for w in BANK_WORDS) and "bank" not in flags:
                 flags.append("bank")
             day, tm, short = label_for(c["ist"])
-            self.cards.append(dict(c, n=str(i + 1), flags=flags, day=day, time=tm, short=short))
+            fp = None
+            for e in evs:
+                f, pv = num(e.get("forecast")), num(e.get("previous"))
+                if f is not None and pv is not None:
+                    fp = (e["title"], e["forecast"], e["previous"], f, pv); break
+            self.cards.append(dict(c, n=str(i + 1), flags=flags, day=day, time=tm, short=short, fp=fp))
+        self.safety = anim.get("safety") or []
+        self.star_text = "AAJ KA SABSE BADA!" if anim.get("mode") == "daily" else "HAFTE KA SABSE BADA!"
+        if len(self.cards) == 1:
+            self.cards[0]["star"] = False
         self.hook = anim["hook"]
         seen = []
         for c in self.cards:
@@ -129,7 +149,7 @@ class Reel:
         self.h3 = text_layer(self.hook[2], fit(self.hook[2], "Bold", 58, 940), WHITE, stroke=0) if len(self.hook) > 2 else None
 
     def set_timing(self, durs):
-        names = ["hook"] + [f"e{i}" for i in range(len(self.cards))] + ["end"]
+        names = ["hook"] + [f"e{i}" for i in range(len(self.cards))] + (["safety"] if self.safety else []) + ["end"]
         self.scenes, acc = [], 0.0
         for nm, dd in zip(names, durs):
             self.scenes.append((nm, acc, dd)); acc += dd
@@ -197,11 +217,38 @@ class Reel:
             a = ease_out((t - 1.4) / 0.3)
             text_c(d, (W / 2 + ox, cy1 + 95 + off - 30 * (1 - a)), "Kis par asar:", font("Medium", 42), GREY)
             text_c(d, (W / 2 + ox, cy1 + 160 + off - 30 * (1 - a)), ev["pairs"], fit(ev["pairs"], "ExtraBold", 54, 940), GREEN)
+        if ev["fp"] and t > 1.7:
+            title, fs, ps, f, pv = ev["fp"]
+            y0 = cy1 + 270 + off
+            text_c(d, (W / 2 + ox, y0), title, fit(title, "Bold", 40, 900), GREY)
+            m = max(abs(f), abs(pv)) or 1
+            for j, (lab, val, txt, col) in enumerate([("FORECAST", f, fs, YEL), ("PICHHLA", pv, ps, (120, 140, 180))]):
+                g = ease_out((t - 1.8 - 0.25 * j) / 0.5); y = y0 + 70 + j * 80
+                text_c(d, (cx0 + 60, y), lab, font("Bold", 36), WHITE, anchor="lm")
+                bw = int(430 * abs(val) / m * g)
+                d.rounded_rectangle([cx0 + 300, y - 24, cx0 + 300 + max(bw, 8), y + 24], radius=12, fill=col)
+                if g > 0.6: text_c(d, (cx0 + 320 + max(bw, 8), y), txt, font("ExtraBold", 40), col, anchor="lm")
         if ev.get("star") and t > 2.2:
             s = back_out((t - 2.2) / 0.3) * (1 + 0.05 * math.sin(t * 8))
-            tag = text_layer("HAFTE KA SABSE BADA!", font("ExtraBold", 48), WHITE, stroke=0, pad=22)
+            tag = text_layer(self.star_text, font("ExtraBold", 48), WHITE, stroke=0, pad=22)
             bx = Image.new("RGBA", tag.size, RED + (255,)); bx.alpha_composite(tag)
             scaled_paste(img, bx.rotate(-6, expand=True, resample=Image.BICUBIC), s, W / 2 + 190 + ox, cy1 + 5)
+
+    def safety_scene(self, img, t):
+        d = ImageDraw.Draw(img)
+        pill(d, W / 2, 330, "SAFETY FIRST", font("ExtraBold", 44), RED, WHITE)
+        scaled_paste(img, text_layer("News Time Par Kya Karein?", font("ExtraBold", 72), WHITE), back_out(t / 0.35), W / 2, 470)
+        icons = ["clock", "warn", "shield", "scale"]
+        for i, item in enumerate(self.safety[:4]):
+            a = ease_out((t - 0.4 - 0.35 * i) / 0.35)
+            if a <= 0: continue
+            y = 640 + i * 170; x = int((1 - a) * W)
+            d.rounded_rectangle([70 + x, y - 65, W - 70 + x, y + 65], radius=30, fill=(20, 36, 78), outline=(60, 80, 130), width=3)
+            s = back_out((t - 0.55 - 0.35 * i) / 0.3) * (1 + 0.05 * math.sin(t * 6 + i))
+            scaled_paste(img, emo(icons[i], 90), s, 150 + x, y)
+            text_c(d, (230 + x, y + 2), item, fit(item, "Bold", 46, 760), WHITE, anchor="lm")
+        if t > 0.4 + 0.35 * len(self.safety[:4]):
+            text_c(d, (W / 2, 640 + len(self.safety[:4]) * 170 + 30), "Pehle bachao, phir kamao.", font("ExtraBold", 54), YEL)
 
     def end_scene(self, img, t):
         d = ImageDraw.Draw(img)
@@ -235,6 +282,7 @@ class Reel:
         lt = t - sc[1]
         if sc[0] == "hook": self.hook_scene(img, lt)
         elif sc[0] == "end": self.end_scene(img, lt)
+        elif sc[0] == "safety": self.safety_scene(img, lt)
         else: self.card_scene(img, lt, self.cards[int(sc[0][1:])])
         d = ImageDraw.Draw(img)
         text_c(d, (60, 110), "TRADE WITH CAPTAIN PRAVIN", font("Bold", 34), YEL, anchor="lm")
@@ -264,9 +312,9 @@ def main():
     vdir = args[args.index("--voice-dir") + 1] if "--voice-dir" in args else None
     anim = json.load(open(os.path.join(out_dir, "anim.json"), encoding="utf-8"))
     events = json.load(open(os.path.join(out_dir, "events.json"), encoding="utf-8"))
-    if not 2 <= len(anim["events"]) <= 4: sys.exit("anim.json needs 2-4 events")
+    if not 1 <= len(anim["events"]) <= 4: sys.exit("anim.json needs 1-4 events")
     reel = Reel(anim, events)
-    n_scenes = len(anim["events"]) + 2
+    n_scenes = len(anim["events"]) + 2 + (1 if reel.safety else 0)
     if len(anim.get("narration", [])) != n_scenes: sys.exit(f"narration needs {n_scenes} lines")
 
     with tempfile.TemporaryDirectory() as tmp:
@@ -278,7 +326,7 @@ def main():
             if not tts.available(): sys.exit("ELEVENLABS_API_KEY missing (use --no-voice to render without)")
             voices = [os.path.join(tmp, f"{i}.mp3") for i in range(n_scenes)]
             for line, p in zip(anim["narration"], voices): tts.speak(line, p)
-        mins = [MINS["hook"]] + [MINS["event"]] * len(anim["events"]) + [MINS["end"]]
+        mins = [MINS["hook"]] + [MINS["event"]] * len(anim["events"]) + ([4.5] if reel.safety else []) + [MINS["end"]]
         durs = [max(m, LEAD + audio_seconds(v) + TAIL) for m, v in zip(mins, voices)] if voices else mins
         reel.set_timing(durs)
 

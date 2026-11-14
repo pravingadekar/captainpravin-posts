@@ -41,26 +41,35 @@ If `$DIR/reel.mp4` already exists, skip to step 6.
 4. Render: `python3 tools/make_post.py $DIR`. It must print "with voice" (needs `ELEVENLABS_API_KEY`; never print
    it). If the voice fails twice, render with `--no-voice` and say so. Open every `slideN.png`: nothing may overflow,
    overlap the footer or show empty boxes. Fix only the text you wrote, re-render until clean.
-4b. **Weekly only — animated reel** (replaces the slideshow `reel.mp4`; the carousel slides stay). Do this
+4b. **Animated reel (daily AND weekly)** — replaces the slideshow `reel.mp4`; the carousel slides stay. Do this
    after the last `make_post.py` run, because make_post.py overwrites `reel.mp4`.
    Write `$DIR/anim.json`:
    ```
-   {"hook": ["IS HAFTE", "3 BADE NEWS", "GOLD aur USD hil sakte hain!"],
+   {"mode": "<daily|weekly>",
+    "hook": ["IS HAFTE", "3 BADE NEWS", "GOLD aur USD hil sakte hain!"],
     "events": [{"ist": "...", "what": "US Retail Sales", "sub": "Log kitna kharch kar rahe hain?",
                 "pairs": "USD  |  GOLD  |  EURUSD", "star": false}, ...],
+    "safety": ["News se 15 min pehle naya trade nahi", "Spread aur slippage badh sakta hai",
+               "Stop loss hamesha lagao", "Lot size chhota rakho"],
     "narration": ["...", "...", ...]}
    ```
-   - `events`: the 3 biggest events of the week (2 if the week only has 2; max 4), in time order. `ist` copied
-     exactly from `events.json` (events with the same `ist` are one card; the script computes day, time, flag and
-     "DER RAAT" for times before 4 AM, and refuses an `ist` that is not in events.json). `what`: short English
-     name under ~22 chars. `sub`: simple Hinglish question under ~32 chars (what it measures, no direction).
-     `pairs`: 2-3 instruments that usually react, joined with "  |  ". `"star": true` on the single biggest only.
-   - `hook`: line 1 "IS HAFTE", line 2 "<number of cards> BADE NEWS", line 3 a short Hinglish line under ~30 chars
-     about which market can move (e.g. "GOLD aur USD hil sakte hain!") — never which direction.
-   - `narration`: Devanagari, one line per scene = cards + 2. Line 1 starts "रुको!" and says how many big news are
-     coming this week. One line per card: ordinal (पहला, दूसरा, और तीसरा), weekday, date, time spelled out the
-     way the card shows it (late night: "बुधवार देर रात साढ़े बारह बजे"), the name, and one short meaning; the
-     starred card says "हफ्ते का सबसे बड़ा न्यूज़". Last line exactly:
+   - `events`: weekly = the 3 biggest events of the week (2 if only 2; max 4); daily = today's events, 1-3 cards
+     (the most important ones). Time order. `ist` copied exactly from `events.json` (events with the same `ist` are
+     one card; the script computes day, time, flag, "DER RAAT" for times before 4 AM, and the "Forecast vs Pichhla"
+     bars from events.json; it refuses an `ist` that is not in events.json). `what`: short English name under
+     ~22 chars. `sub`: simple Hinglish question under ~32 chars (what it measures, no direction). `pairs`: 2-3
+     instruments that usually react, joined with "  |  ". `"star": true` on the single biggest only (ignored when
+     there is just one card).
+   - `hook` (3 short lines, each under ~30 chars, never a price direction):
+     weekly: "IS HAFTE" / "<cards> BADE NEWS" / which market can move.
+     daily: when the first big news is + its currency, e.g. "AAJ SHAAM 7 BAJE" / "USD ka BADA NEWS!" /
+     "GOLD aur EURUSD hil sakte hain!" (if several, "AAJ <cards> BADE NEWS" as line 2).
+   - `safety`: daily only (omit for weekly): exactly the 4 items above (you may shorten, each under ~38 chars).
+   - `narration`: Devanagari, one line per scene = 1 (hook) + cards + 1 if safety + 1 (closing). Hook line starts
+     "रुको!". One line per card: ordinal if more than one card (पहला, दूसरा, और तीसरा), day (daily: "आज"), time
+     spelled out the way the card shows it (late night: "बुधवार देर रात साढ़े बारह बजे"), the name, and one short
+     meaning; daily cards may read the forecast and previous numbers from events.json. Safety line: the 4 tips in
+     one or two sentences. Last line exactly:
      "टाइम नोट कर लो, और ये रील सेव करो। फ़ॉलो करो ट्रेड विद कैप्टन प्रवीण, हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं।"
    Run `python3 tools/make_anim_reel.py $DIR`. It must print "with voice". Open every `$DIR/check/anim*.jpg`:
    text must fit inside its card, day/time must match events.json. If it fails twice, keep the slideshow reel
