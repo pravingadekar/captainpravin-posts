@@ -1,0 +1,23 @@
+📉 Price Lower Band से बाहर गया तो तुरंत buy? रुको — पहले ये pattern वाला rule समझो!
+पैटर्न + बोलिंजर बैंड्स (Pattern + Bollinger Bands) — DAY 56 📓
+
+Bollinger Bands = बीच में 20 SMA और उसके ऊपर-नीचे 2 Standard Deviation की lines।
+Band बताता है "price extreme पर है", और pattern बताता है "buyers/sellers लौट रहे हैं" — दोनों साथ मिलें तो setup मज़बूत।
+
+✅ कहाँ बनता है: Downtrend के बाद Lower Band + Support पर (Bullish), Uptrend के बाद Upper Band + Resistance पर (Bearish)
+✅ Signal: Neutral tool — Lower Band पर Hammer/Engulfing = तेजी का संकेत, Upper Band पर Bearish pattern = मंदी का संकेत
+✅ Rule: Wick Band के बाहर जाए लेकिन candle Band के अंदर Close करे
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Volume ↑
+✅ Stop Loss: Pattern के Low के नीचे | Target: 20 SMA, फिर Upper Band — R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। सिर्फ़ Band touch signal नहीं है, strong trend में price band पर "walk" करता है। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 57 — ATR से Stop-Loss (ATR Stop-Loss) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप Bollinger Bands की कौन सी setting use करते हो?
+
+(Educational purpose only, not financial advice)
