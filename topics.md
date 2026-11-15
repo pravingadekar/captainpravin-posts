@@ -19,7 +19,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Major, minor, exotic pairs (2026-11-12)
 - [x] Revenge trading se kaise bachein (2026-11-13)
 - [x] Overtrading ke signs (2026-11-14)
-- [ ] Trading journal kyun zaroori hai
+- [x] Trading journal kyun zaroori hai (2026-11-15)
 - [ ] Demo vs live account psychology
 - [ ] News trading ka risk (NFP, CPI)
 - [ ] Multiple timeframe analysis
