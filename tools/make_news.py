@@ -15,6 +15,9 @@ import urllib.request
 from datetime import date, datetime, timedelta, timezone
 
 FEED = "https://nfs.faireconomy.media/ff_calendar_thisweek.json"
+# ForexFactory's week flips on Sunday New York time (~10:30 AM IST), so at the Sunday 6:30 AM IST run
+# "thisweek" is still last week: the weekly post also reads the next-week feed.
+FEED_NEXT = "https://nfs.faireconomy.media/ff_calendar_nextweek.json"
 IST = timezone(timedelta(hours=5, minutes=30))
 PER_SLIDE = 7
 DAY_STARTS = 7  # a daily post covers 07:00 IST to 07:00 IST next day
@@ -35,13 +38,28 @@ SAFETY = [
 ]
 
 
-def load_feed(path=None):
+def fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": "captainpravin-posts"})
+    with urllib.request.urlopen(req, timeout=60) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def load_feed(path=None, with_next=False):
     if path:
         with open(path, encoding="utf-8") as f:
             return json.load(f)
-    req = urllib.request.Request(FEED, headers={"User-Agent": "captainpravin-posts"})
-    with urllib.request.urlopen(req, timeout=60) as resp:
-        return json.loads(resp.read().decode("utf-8"))
+    raw = fetch(FEED)
+    if with_next:
+        try:
+            raw += fetch(FEED_NEXT)
+        except Exception as e:  # next-week feed is optional; thisweek may already cover the week
+            print("next-week feed unavailable:", e, file=sys.stderr)
+    seen, out = set(), []
+    for e in raw:
+        k = (e.get("date"), e.get("country"), e.get("title"))
+        if k not in seen:
+            seen.add(k); out.append(e)
+    return out
 
 
 def to_ist(raw):
@@ -141,7 +159,7 @@ def weekly(events, week_start):
 def main():
     mode, day, out = sys.argv[1], date.fromisoformat(sys.argv[2]), sys.argv[3]
     feed = sys.argv[4] if len(sys.argv) > 4 else None
-    events = to_ist(load_feed(feed))
+    events = to_ist(load_feed(feed, with_next=(mode == "weekly")))
     slides, used = (daily if mode == "daily" else weekly)(events, day)
     if not slides:
         print("no news events for", mode, day)
