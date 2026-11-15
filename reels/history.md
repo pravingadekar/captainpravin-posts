@@ -8,4 +8,4 @@
 2026-11-18 | Quiz #3 Bullish engulfing at support (BUY) | रुको! BUY या SELL? | 13:00 | IG+FB 428716406, YT 428716416
 2026-11-19 | Quiz #4 Doji at resistance (WAIT) | रुको! BUY या SELL? | 13:00 | IG+FB 428716427, YT 428716441
 2026-11-20 | Quiz #5 Bearish engulfing at resistance (SELL) | रुको! BUY या SELL? | 13:00 | IG+FB 428716460, YT 428716473
-2026-11-15 | Weekly market recap w46 (Gold, BTC, EUR/USD) | इस हफ्ते तीनों नीचे | 21:30 | IG+FB 428720767, YT 428720793
+2026-11-15 | Weekly market recap w46 (Gold, BTC, EUR/USD) | इस हफ्ते तीनों नीचे | 21:30 | IG+FB 428754237, YT 428754255 (v2 light)
