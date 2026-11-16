@@ -1,0 +1,42 @@
+[
+  {
+    "ist": "2026-11-16T19:00:00+05:30",
+    "currency": "CAD",
+    "title": "CPI m/m",
+    "impact": "High",
+    "forecast": "0.3%",
+    "previous": "0.1%"
+  },
+  {
+    "ist": "2026-11-16T19:00:00+05:30",
+    "currency": "CAD",
+    "title": "Median CPI y/y",
+    "impact": "High",
+    "forecast": "2.0%",
+    "previous": "1.9%"
+  },
+  {
+    "ist": "2026-11-16T19:00:00+05:30",
+    "currency": "CAD",
+    "title": "Trimmed CPI y/y",
+    "impact": "High",
+    "forecast": "1.9%",
+    "previous": "1.8%"
+  },
+  {
+    "ist": "2026-11-16T22:30:00+05:30",
+    "currency": "USD",
+    "title": "Fed Chairman Warsh Speaks",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-17T04:20:00+05:30",
+    "currency": "AUD",
+    "title": "RBA Gov Bullock Speaks",
+    "impact": "High",
+    "forecast": "",
+    "previous": ""
+  }
+]

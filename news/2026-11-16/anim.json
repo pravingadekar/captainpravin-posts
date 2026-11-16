@@ -1,0 +1,12 @@
+{"mode":"daily",
+"hook":["AAJ SHAAM 7 BAJE","CAD ka BADA NEWS!","CAD aur USD hil sakte hain!"],
+"events":[
+{"ist":"2026-11-16T19:00:00+05:30","what":"Canada CPI","sub":"Mehngai kitni badhi?","pairs":"CAD  |  USDCAD  |  CADJPY","star":true},
+{"ist":"2026-11-16T22:30:00+05:30","what":"Fed Chair Warsh Speaks","sub":"Fed chief kya bolenge?","pairs":"USD  |  GOLD  |  EURUSD","star":false}],
+"safety":["News se 15 min pehle naya trade nahi","Spread aur slippage badh sakta hai","Stop loss hamesha lagao","Lot size chhota rakho"],
+"narration":[
+"रुको! आज शाम सात बजे कैनेडियन सीपीआई का बड़ा न्यूज़ है, सीएडी और यूएसडी में हलचल हो सकती है।",
+"पहला, आज शाम सात बजे, कैनेडा सीपीआई, यानी महंगाई का नाप। फोरकास्ट शून्य दशमलव तीन प्रतिशत, पिछला शून्य दशमलव एक प्रतिशत।",
+"दूसरा, आज रात साढ़े दस बजे, फेड चेयरमैन वॉर्श बोलेंगे। यूएसडी, गोल्ड और यूरोयूएसडी पर नज़र रखो।",
+"न्यूज़ से पंद्रह मिनट पहले नया ट्रेड मत लो। स्प्रेड और स्लिपेज बढ़ सकता है। स्टॉप लॉस लगाओ और लॉट साइज़ छोटा रखो।",
+"टाइम नोट कर लो, और ये रील सेव करो। फ़ॉलो करो ट्रेड विद कैप्टन प्रवीण, हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं।"]}
