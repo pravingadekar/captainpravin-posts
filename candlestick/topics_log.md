@@ -65,3 +65,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 81 | instagram, facebook | पेनेंट पैटर्न (Pennant Pattern) | 2026-11-15
 - DAY 56 | youtube | पैटर्न + बोलिंजर बैंड्स (Pattern + Bollinger Bands) | 2026-11-15
 - DAY 57 | youtube | ATR से स्टॉप-लॉस (ATR Stop-Loss) | 2026-11-15
+- DAY 82 | instagram, facebook | ट्रिपल बॉटम (Triple Bottom Pattern) | 2026-11-16
