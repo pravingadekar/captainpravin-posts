@@ -1,3 +1,5 @@
+> **STOPPED 16 Nov 2026:** the user ended the host reel ("ye nhi banegi kabhi"). The scheduled task captain-pravin-host-reel is disabled. Do not make host reels unless the user asks again.
+
 # Host reel (split-screen), every other day
 
 Format approved by Pravin on 14 Nov 2026 (test: `reels/test-2026-11-14-split/`).
