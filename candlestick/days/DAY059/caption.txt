@@ -1,0 +1,23 @@
+🟢 Price बार-बार उसी जगह से क्यों उछलता है जहाँ से पहले भागा था? Demand Zone समझो!
+पैटर्न + सप्लाई-डिमांड ज़ोन (Pattern + Supply-Demand Zones) — DAY 59 📓
+
+Demand Zone = वह छोटा Base जहाँ से price तेज़ी से ऊपर भागा था, Supply Zone = जहाँ से तेज़ी से गिरा था।
+Price पहली बार zone में लौटे और वहाँ pattern बने, तो zone + pattern मिलकर setup बनाते हैं।
+
+✅ कहाँ बनता है: तेज़ move शुरू होने से ठीक पहले वाला Base (Drop-Base-Rally / Rally-Base-Drop)
+✅ Signal: Demand Zone पर Bullish pattern, Supply Zone पर Bearish pattern
+✅ Rule: Zone = Proximal (Base bodies का ऊपरी किनारा) से Distal (Base का सबसे निचला Low) तक, fresh zone बेहतर
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Volume ↑
+✅ Stop Loss: Distal line के नीचे | Target: अगला Supply zone / पिछला High, R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। Distal के पार Close = zone टूट गया। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 60 ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप chart पर zones कैसे mark करते हो?
+
+(Educational purpose only, not financial advice)

@@ -67,3 +67,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 57 | youtube | ATR से स्टॉप-लॉस (ATR Stop-Loss) | 2026-11-15
 - DAY 82 | instagram, facebook | ट्रिपल बॉटम (Triple Bottom Pattern) | 2026-11-16
 - DAY 58 | youtube | पैटर्न + पिवट पॉइंट्स (Pattern + Pivot Points) | 2026-11-16
+- DAY 59 | youtube | पैटर्न + सप्लाई-डिमांड ज़ोन (Pattern + Supply-Demand Zones) | 2026-11-16
