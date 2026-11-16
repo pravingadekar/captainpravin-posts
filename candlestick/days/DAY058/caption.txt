@@ -1,0 +1,23 @@
+📍 Intraday में price बार-बार एक ही level पर क्यों पलटता है? Pivot Points का राज़ समझो!
+पैटर्न + पिवट पॉइंट्स (Pattern + Pivot Points) — DAY 58 📓
+
+Pivot Points पिछले दिन के High, Low, Close से बने levels हैं — P, R1, R2, S1, S2।
+जब Hammer या Engulfing जैसा pattern ठीक इन्हीं levels पर बने, तो signal को level का साथ मिलता है।
+
+✅ कहाँ काम आता है: S1/S2 पर Bullish pattern, R1/R2 पर Bearish pattern (ख़ासकर intraday)
+✅ Signal: Neutral tool — level बताता है, दिशा pattern + confirmation से
+✅ Rule: P = (H+L+C)/3, R1 = 2P − L, S1 = 2P − H
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Volume ↑
+✅ Stop Loss: Pattern Low के नीचे | Target: अगला Pivot level, R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। Level टूट जाए तो setup ख़त्म। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 59 — पैटर्न + सप्लाई-डिमांड ज़ोन (Pattern + Supply-Demand Zones) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप Pivot Points use करते हो या नहीं?
+
+(Educational purpose only, not financial advice)
