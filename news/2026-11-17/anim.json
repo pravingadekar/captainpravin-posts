@@ -1,0 +1,37 @@
+{
+ "mode": "daily",
+ "hook": [
+  "AAJ SHAAM 7 BAJE",
+  "USD ka BADA NEWS!",
+  "GOLD aur EURUSD hil sakte hain!"
+ ],
+ "events": [
+  {
+   "ist": "2026-11-17T07:30:00+05:30",
+   "what": "NZ Inflation Expectations",
+   "sub": "Mehngai ka andaza kitna?",
+   "pairs": "NZD  |  NZDUSD  |  AUDNZD",
+   "star": false
+  },
+  {
+   "ist": "2026-11-17T19:00:00+05:30",
+   "what": "US Retail Sales",
+   "sub": "Log kitna kharch kar rahe hain?",
+   "pairs": "USD  |  GOLD  |  EURUSD",
+   "star": true
+  }
+ ],
+ "safety": [
+  "News se 15 min pehle naya trade nahi",
+  "Spread aur slippage badh sakta hai",
+  "Stop loss hamesha lagao",
+  "Lot size chhota rakho"
+ ],
+ "narration": [
+  "रुको! आज शाम सात बजे यूएस रिटेल सेल्स का बड़ा न्यूज़ है, यूएसडी, गोल्ड और यूरोयूएसडी में हलचल हो सकती है।",
+  "पहला, आज सुबह साढ़े सात बजे, न्यूज़ीलैंड इन्फ्लेशन एक्सपेक्टेशंस, यानी लोग कितनी महंगाई की उम्मीद कर रहे हैं। पिछला दो दशमलव तीन चार प्रतिशत।",
+  "दूसरा, आज शाम सात बजे, यूएस रिटेल सेल्स, यानी लोग कितना ख़र्च कर रहे हैं। फोरकास्ट शून्य दशमलव एक प्रतिशत, पिछला शून्य दशमलव आठ प्रतिशत।",
+  "न्यूज़ से पंद्रह मिनट पहले नया ट्रेड मत लो। स्प्रेड और स्लिपेज बढ़ सकता है। स्टॉप लॉस लगाओ और लॉट साइज़ छोटा रखो।",
+  "टाइम नोट कर लो, और ये रील सेव करो। फ़ॉलो करो ट्रेड विद कैप्टन प्रवीण, हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं।"
+ ]
+}
