@@ -1,0 +1,23 @@
+🟢 ₹1,000, ₹500, Nifty 25,000 — price इन गोल अंकों पर बार-बार क्यों रुकता है?
+पैटर्न + राउंड नंबर लेवल (Pattern + Round Number Levels) — DAY 61 📓
+
+गोल अंक भीड़ का level होते हैं — यहीं orders, Stop Loss और Targets जमा होते हैं।
+ऐसे zone में candlestick pattern बने और confirmation मिले, तो setup ज़्यादा ध्यान देने लायक होता है।
+
+✅ कहाँ बनता है: Downtrend में Round Number पर Support, Uptrend में Resistance की तरह
+✅ Signal: Level Neutral है — दिशा pattern बताता है (Bullish या Bearish)
+✅ Rule: Line नहीं, Zone देखो (जैसे ₹995–₹1,005) और pattern उसी zone में बने
+✅ Confirmation: अगली candle pattern High के ऊपर Close + Volume ↑
+✅ Stop Loss: ठीक ₹1,000 पर नहीं, pattern Low के नीचे | Target: अगले Round Number से थोड़ा पहले, R:R 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। Round Number पूरी candle Close से टूटे तो setup ख़त्म। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook ध्यान से पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 62 ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आपके favourite stock का अगला Round Number कौन सा है?
+
+(Educational purpose only, not financial advice)

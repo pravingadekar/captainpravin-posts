@@ -70,3 +70,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 59 | youtube | पैटर्न + सप्लाई-डिमांड ज़ोन (Pattern + Supply-Demand Zones) | 2026-11-16
 - DAY 83 | instagram, facebook | ट्रिपल टॉप (Triple Top Pattern) | 2026-11-19
 - DAY 60 | youtube | ट्रेलिंग स्टॉप-लॉस (Trailing Stop-Loss) | 2026-11-19
+- DAY 61 | youtube | पैटर्न + राउंड नंबर लेवल (Pattern + Round Number Levels) | 2026-11-19
