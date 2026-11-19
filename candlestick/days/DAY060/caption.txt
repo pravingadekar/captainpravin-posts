@@ -1,0 +1,23 @@
+🟢 Profit में चल रहा trade loss में क्यों बदल जाता है? क्योंकि Stop Loss वहीं का वहीं पड़ा रहता है!
+ट्रेलिंग स्टॉप-लॉस (Trailing Stop-Loss) — DAY 60 📓
+
+Trade profit में जाए तो SL को price के साथ सीढ़ी की तरह आगे खिसकाओ।
+Trend चले तो trade में बने रहो, trend टूटे तो नियम से बाहर — अंदाज़े से नहीं।
+
+✅ कहाँ काम आता है: साफ़ Trending market में, जहाँ Higher Lows (या Lower Highs) बनते हैं
+✅ Type: Exit / Risk tool — Buy और Sell दोनों trades में (Neutral)
+✅ Rule: हर नए confirmed Higher Low के थोड़ा नीचे SL, और SL कभी पीछे नहीं हटता
+✅ Confirmation: Higher Low तभी मानो जब अगली candle उसके ऊपर Close करे
+✅ Stop Loss: Initial SL entry से पहले तय | T1 पर R:R 1:2, बाकी quantity पर trail
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। बहुत tight trail = normal pullback में ही बाहर। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook ध्यान से पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 61 — पैटर्न + राउंड नंबर लेवल (Pattern + Round Number Levels) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप SL trail करते हो या fixed target रखते हो?
+
+(Educational purpose only, not financial advice)
