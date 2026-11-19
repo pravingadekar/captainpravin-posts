@@ -1,0 +1,26 @@
+[
+  {
+    "ist": "2026-11-19T19:00:00+05:30",
+    "currency": "EUR",
+    "title": "ECB President Lagarde Speaks",
+    "impact": "Medium",
+    "forecast": "",
+    "previous": ""
+  },
+  {
+    "ist": "2026-11-19T19:00:00+05:30",
+    "currency": "USD",
+    "title": "Philly Fed Manufacturing Index",
+    "impact": "Medium",
+    "forecast": "20.6",
+    "previous": "20.9"
+  },
+  {
+    "ist": "2026-11-19T19:00:00+05:30",
+    "currency": "USD",
+    "title": "Unemployment Claims",
+    "impact": "Medium",
+    "forecast": "198K",
+    "previous": "200K"
+  }
+]
