@@ -20,7 +20,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Revenge trading se kaise bachein (2026-11-13)
 - [x] Overtrading ke signs (2026-11-14)
 - [x] Trading journal kyun zaroori hai (2026-11-15)
-- [ ] Demo vs live account psychology
+- [x] Demo vs live account psychology (2026-11-19)
 - [ ] News trading ka risk (NFP, CPI)
 - [ ] Multiple timeframe analysis
 - [ ] Breakout vs fake breakout
