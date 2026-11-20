@@ -11,4 +11,4 @@
 2026-11-15 | Weekly market recap w46 (Gold, BTC, EUR/USD) | इस हफ्ते तीनों नीचे | 21:30 | IG+FB 428754237, YT 428754255 (v2 light)
 2026-11-17 | #3 Shooting Star (follow + PDF end card, thumbnail) | तेज़ी के बाद खतरे का संकेत? | 19:00 | IG+FB 429443910, YT 429443924
 16 Nov: quizzes #1-#5 got thumb.jpg covers; new Metricool ids in each posted.txt
-2026-11-21 | 30 din Trading Journal promo (free PDF, comment JOURNAL) | बार-बार लॉस? | 19:00 | IG+FB 435177449, YT 435177463
+2026-11-21 | 30 din Trading Journal promo (free PDF, comment JOURNAL) | बार-बार लॉस? | 19:00 | IG+FB 435215152, YT 435215162 (v2)
