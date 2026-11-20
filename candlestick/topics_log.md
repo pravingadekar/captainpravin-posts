@@ -73,3 +73,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 61 | youtube | पैटर्न + राउंड नंबर लेवल (Pattern + Round Number Levels) | 2026-11-19
 - DAY 84 | instagram, facebook | रेक्टेंगल पैटर्न (Rectangle Pattern) | 2026-11-20
 - DAY 62 | youtube | ओपनिंग रेंज ब्रेकआउट (Opening Range Breakout) | 2026-11-20
+- DAY 63 | youtube | रिस्क-रिवॉर्ड रेश्यो (Risk-Reward Ratio) | 2026-11-20
