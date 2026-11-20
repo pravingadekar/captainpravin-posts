@@ -1,0 +1,7 @@
+FB-only extra image posts (user, 20 Nov 2026: weekly FB task "30 public posts"). Metricool brand 7732528.
+card01 20 Nov 17:30 435380185 | card02 20 Nov 19:30 435380211 | card03 20 Nov 21:00 435380237
+card04 20 Nov 22:30 435380259 | card05 21 Nov 08:30 435380284 | card06 21 Nov 10:00 435380312
+card07 21 Nov 11:30 435380340 | card08 21 Nov 15:00 435380368 | card09 21 Nov 16:30 435380405
+card10 21 Nov 18:00 435380430 | card12 21 Nov 20:30 435380457 (JOURNAL) | card11 21 Nov 22:00 435380480
+Quiz answers: card02 A Hammer, card06 C (Doji, market undecided), card09 A Bullish Engulfing.
+Images made by AI Video Editor/tools/make_fb_cards.py.
