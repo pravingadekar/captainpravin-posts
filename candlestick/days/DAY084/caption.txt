@@ -1,0 +1,23 @@
+🟨 Price कई दिन से एक ही "डिब्बे" में फँसा है? Breakout से पहले ये ज़रूर समझ लो!
+रेक्टेंगल पैटर्न (Rectangle Pattern) — DAY 84 📓
+
+Price दो सीधी lines के बीच ऊपर-नीचे घूमता है — ऊपर Resistance, नीचे Support।
+Buyers-Sellers बराबर लड़ते हैं; असली signal तभी, जब कोई line Close के साथ टूटे।
+
+✅ कहाँ बनता है: Uptrend या Downtrend के बीच में, जब trend आराम (pause) लेता है
+✅ Signal: Neutral — ऊपर breakout = Bullish, नीचे breakout = Bearish
+✅ Rule: 2+ Highs एक level पर + 2+ Lows एक level पर, box के अंदर Volume कम
+✅ Confirmation: पूरी candle का Close box के बाहर + Volume ↑ (सिर्फ़ wick नहीं)
+✅ Stop Loss: breakout candle Low / आख़िरी Higher Low के नीचे | Target: box Height जितना, R:R कम से कम 1:2
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। Box के अंदर वापस Close = fakeout। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 85 — एक और नया advanced price-action lesson ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप breakout पर entry लेते हो या retest पर?
+
+(Educational purpose only, not financial advice)
