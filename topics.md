@@ -21,7 +21,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Overtrading ke signs (2026-11-14)
 - [x] Trading journal kyun zaroori hai (2026-11-15)
 - [x] Demo vs live account psychology (2026-11-19)
-- [ ] News trading ka risk (NFP, CPI)
+- [x] News trading ka risk (NFP, CPI) (2026-11-20)
 - [ ] Multiple timeframe analysis
 - [ ] Breakout vs fake breakout
 - [ ] Fibonacci retracement basics
