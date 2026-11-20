@@ -1,0 +1,23 @@
+🔴 ₹1 का risk लेकर ₹1 ही कमाने का plan? तो लंबे समय में account बचाना मुश्किल है!
+रिस्क-रिवॉर्ड रेश्यो (Risk-Reward Ratio) — DAY 63 📓
+
+Risk = Entry से Stop Loss तक का संभावित नुकसान, Reward = Entry से Target तक का संभावित फ़ायदा।
+1:2 का मतलब — हर ₹1 के risk पर ₹2 का target, और ये trade से पहले तय होता है।
+
+✅ कहाँ use होता है: हर trade में, entry से पहले — किसी भी pattern के साथ
+✅ Type: Neutral — buy/sell signal नहीं, risk का filter
+✅ Rule: R:R = (Target − Entry) ÷ (Entry − SL), कम से कम 1:2 वरना skip
+✅ Confirmation: entry सिर्फ़ confirmation candle के Close के बाद, Target असली Resistance पर
+✅ Stop Loss: pattern के Low / Support के नीचे | कुल risk capital का 1-2% से ज़्यादा नहीं
+
+⚠️ सिर्फ़ pattern देखकर trade मत करो — Confirmation + Risk Management ज़रूरी। कोई भी pattern 100% guarantee नहीं देता।
+
+📚 पूरी 5 pages की notebook swipe करके पढ़ो →
+❤️ Trading सीखने के लिए FOLLOW करो — @tradewithcaptainpravin
+🔔 Live Trading देखने के लिए YouTube Channel SUBSCRIBE करो
+
+Kal DAY 64 — पिछले दिन का हाई-लो (Previous Day High-Low / PDH-PDL) ... Miss मत करना!
+
+📌 Save करो | 📤 Share करो | 💬 Comment में बताओ — आप कम से कम कितना R:R लेते हो?
+
+(Educational purpose only, not financial advice)
