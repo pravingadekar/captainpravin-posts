@@ -74,3 +74,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 84 | instagram, facebook | रेक्टेंगल पैटर्न (Rectangle Pattern) | 2026-11-20
 - DAY 62 | youtube | ओपनिंग रेंज ब्रेकआउट (Opening Range Breakout) | 2026-11-20
 - DAY 63 | youtube | रिस्क-रिवॉर्ड रेश्यो (Risk-Reward Ratio) | 2026-11-20
+- DAY 85 | instagram, facebook | राउंडिंग बॉटम (Rounding Bottom / Saucer) | 2026-11-21
+- DAY 66 | youtube (reused Instagram reel) | गैप ट्रेडिंग (Gap Up / Gap Down) | 2026-11-21
+- DAY 67 | youtube (reused Instagram reel) | मार्केट स्ट्रक्चर (Market Structure: HH-HL / LH-LL) | 2026-11-21
