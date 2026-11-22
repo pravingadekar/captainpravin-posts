@@ -77,3 +77,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 85 | instagram, facebook | राउंडिंग बॉटम (Rounding Bottom / Saucer) | 2026-11-21
 - DAY 66 | youtube (reused Instagram reel) | गैप ट्रेडिंग (Gap Up / Gap Down) | 2026-11-21
 - DAY 67 | youtube (reused Instagram reel) | मार्केट स्ट्रक्चर (Market Structure: HH-HL / LH-LL) | 2026-11-21
+- DAY 68 | youtube (reused Instagram reel) | इनसाइड बार ब्रेकआउट (Inside Bar Breakout) | 2026-11-22
+- DAY 69 | youtube (reused Instagram reel) | डबल बॉटम (Double Bottom Pattern) | 2026-11-22
+- DAY 86 | instagram, facebook | राउंडिंग टॉप (Rounding Top / Inverted Saucer) | 2026-11-22
