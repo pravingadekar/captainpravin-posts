@@ -23,7 +23,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Demo vs live account psychology (2026-11-19)
 - [x] News trading ka risk (NFP, CPI) (2026-11-20)
 - [x] Multiple timeframe analysis (2026-11-21)
-- [ ] Breakout vs fake breakout
+- [x] Breakout vs fake breakout (2026-11-22)
 - [ ] Fibonacci retracement basics
 - [ ] Position sizing jab SL bada ho
 - [ ] Drawdown recovery maths (50% loss = 100% gain chahiye)
