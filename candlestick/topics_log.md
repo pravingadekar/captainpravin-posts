@@ -80,3 +80,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 68 | youtube (reused Instagram reel) | इनसाइड बार ब्रेकआउट (Inside Bar Breakout) | 2026-11-22
 - DAY 69 | youtube (reused Instagram reel) | डबल बॉटम (Double Bottom Pattern) | 2026-11-22
 - DAY 86 | instagram, facebook | राउंडिंग टॉप (Rounding Top / Inverted Saucer) | 2026-11-22
+- DAY 70 | youtube (reused Instagram reel) | डबल टॉप (Double Top Pattern) | 2026-11-23
+- DAY 71 | youtube (reused Instagram reel) | हेड एंड शोल्डर्स (Head & Shoulders Pattern) | 2026-11-23
+- DAY 87 | instagram, facebook | असेंडिंग चैनल (Ascending Channel) | 2026-11-23
