@@ -1,0 +1,66 @@
+[
+  {
+    "ist": "2026-11-23T13:45:00+05:30",
+    "currency": "EUR",
+    "title": "French Flash Manufacturing PMI",
+    "impact": "Medium",
+    "forecast": "49.8",
+    "previous": "49.3"
+  },
+  {
+    "ist": "2026-11-23T13:45:00+05:30",
+    "currency": "EUR",
+    "title": "French Flash Services PMI",
+    "impact": "Medium",
+    "forecast": "47.4",
+    "previous": "48.4"
+  },
+  {
+    "ist": "2026-11-23T14:00:00+05:30",
+    "currency": "EUR",
+    "title": "German Flash Manufacturing PMI",
+    "impact": "Medium",
+    "forecast": "54.1",
+    "previous": "54.2"
+  },
+  {
+    "ist": "2026-11-23T14:00:00+05:30",
+    "currency": "EUR",
+    "title": "German Flash Services PMI",
+    "impact": "Medium",
+    "forecast": "52.4",
+    "previous": "51.7"
+  },
+  {
+    "ist": "2026-11-23T15:00:00+05:30",
+    "currency": "GBP",
+    "title": "Flash Manufacturing PMI",
+    "impact": "Medium",
+    "forecast": "53.0",
+    "previous": "52.8"
+  },
+  {
+    "ist": "2026-11-23T15:00:00+05:30",
+    "currency": "GBP",
+    "title": "Flash Services PMI",
+    "impact": "Medium",
+    "forecast": "53.0",
+    "previous": "53.1"
+  },
+  {
+    "ist": "2026-11-23T20:15:00+05:30",
+    "currency": "USD",
+    "title": "Flash Manufacturing PMI",
+    "impact": "Medium",
+    "forecast": "54.5",
+    "previous": "56.0"
+  },
+  {
+    "ist": "2026-11-23T20:15:00+05:30",
+    "currency": "USD",
+    "title": "Flash Services PMI",
+    "impact": "Medium",
+    "forecast": "55.6",
+    "previous": "57.9"
+  }
+]
