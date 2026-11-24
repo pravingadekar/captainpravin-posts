@@ -25,7 +25,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Multiple timeframe analysis (2026-11-21)
 - [x] Breakout vs fake breakout (2026-11-22)
 - [x] Fibonacci retracement basics (2026-11-23)
-- [ ] Position sizing jab SL bada ho
+- [x] Position sizing jab SL bada ho (2026-11-24)
 - [ ] Drawdown recovery maths (50% loss = 100% gain chahiye)
 - [ ] Trading plan ke 5 parts
 - [ ] Margin call kya hai
