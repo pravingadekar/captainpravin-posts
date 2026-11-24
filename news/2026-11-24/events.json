@@ -1,0 +1,26 @@
+[
+  {
+    "ist": "2026-11-25T06:00:00+05:30",
+    "currency": "AUD",
+    "title": "CPI m/m",
+    "impact": "High",
+    "forecast": "0.4%",
+    "previous": "0.8%"
+  },
+  {
+    "ist": "2026-11-25T06:00:00+05:30",
+    "currency": "AUD",
+    "title": "CPI y/y",
+    "impact": "High",
+    "forecast": "4.7%",
+    "previous": "4.3%"
+  },
+  {
+    "ist": "2026-11-25T06:00:00+05:30",
+    "currency": "AUD",
+    "title": "Trimmed Mean CPI m/m",
+    "impact": "High",
+    "forecast": "0.3%",
+    "previous": "0.3%"
+  }
+]
