@@ -26,7 +26,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Breakout vs fake breakout (2026-11-22)
 - [x] Fibonacci retracement basics (2026-11-23)
 - [x] Position sizing jab SL bada ho (2026-11-24)
-- [ ] Drawdown recovery maths (50% loss = 100% gain chahiye)
+- [x] Drawdown recovery maths (50% loss = 100% gain chahiye) (2026-11-25)
 - [ ] Trading plan ke 5 parts
 - [ ] Margin call kya hai
 - [ ] Correlation: EURUSD vs USDCHF
