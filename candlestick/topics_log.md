@@ -86,3 +86,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 88 | instagram, facebook | डिसेंडिंग चैनल (Descending Channel) | 2026-11-24
 - DAY 72 | youtube (reused Instagram reel) | इनवर्स हेड एंड शोल्डर्स (Inverse Head & Shoulders) | 2026-11-24
 - DAY 73 | youtube (reused Instagram reel) | बुल फ्लैग पैटर्न (Bull Flag Pattern) | 2026-11-24
+- DAY 89 | instagram, facebook | ब्रॉडनिंग फॉर्मेशन (Broadening / Megaphone Pattern) | 2026-11-25
+- DAY 74 | youtube (reused Instagram reel) | बेयर फ्लैग पैटर्न (Bear Flag Pattern) | 2026-11-25
+- DAY 75 | youtube (reused Instagram reel) | असेंडिंग ट्रायंगल पैटर्न (Ascending Triangle Pattern) | 2026-11-25
