@@ -33,7 +33,11 @@ Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (
    `posts/2026-10-29/captions.md`. Each caption: hook, key points, engagement question, CTA, disclaimer, hashtags.
    The CTA in every caption: "Follow + Subscribe karo @tradewithcaptainpravin" and
    "🔴 Hum roz raat 9 baje YouTube par LIVE aate hain, live mein hamare saath judo!" (YouTube: "Subscribe karo" + the same
-   live line). YouTube title under 100 chars, ending in `#shorts`.
+   live line). YouTube title: the question a beginner would type into YouTube search, in Hinglish (Roman), 35-70
+   chars, problem first, ending in ` #shorts` (e.g. "Stop Loss Baar Baar Hit Kyun Hota Hai? #shorts",
+   "Lot Size Kaise Nikale? 1% Risk Formula #shorts"). No "DAY", no date, no channel name in the title.
+   Narration line 1 / slide 1 must hit the problem in the first 2 seconds (a question or a shocking number), never a
+   greeting or the channel name: YouTube Shorts drop a video when viewers swipe in the first second.
 5. Render and check:
    ```
    python3 -m pip install -q -r requirements.txt   # if PIL fails with "_imaging": add --force-reinstall
@@ -59,7 +63,7 @@ Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (
    |-------|------|
    | 10:00 | Facebook `REEL` with reel.mp4, Reel caption (Facebook variant) |
    | 12:00 | Facebook `POST` with slide1..slide6 URLs, Facebook caption |
-   | 16:00 | YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public` |
+   | 16:00 | YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public`, `isAiGeneratedContent: true` (AI voice). **Skip this slot if any YouTube post is already scheduled on $D** (YouTube gets at most ONE short per day; hand-made hook reels take priority) |
    | 18:00 | Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption |
    | 20:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
    If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.

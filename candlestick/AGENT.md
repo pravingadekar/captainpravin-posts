@@ -8,7 +8,12 @@ Run date: `D=$(TZ=Asia/Kolkata date +%F)`. Repo root = the checked-out `captainp
 
 ## What each run posts
 
-Read `candlestick/state.json`. YouTube must stay in strict DAY order (25, 26, 27, ...), never jumping ahead.
+Read `candlestick/state.json`.
+
+**YouTube is PAUSED for this series (Pravin, 26 Nov 2026).** YouTube Studio showed 74% of Shorts viewers swipe away
+the notebook-page reels, so YouTube stopped pushing the channel's Shorts. Do NOT do part B below and do not schedule
+any DAY lesson on YouTube. Leave `yt_next_day` and `yt_already_posted` unchanged. Instagram + Facebook (part A) go on
+as usual. Only Pravin can turn YouTube back on.
 
 **A. Instagram + Facebook lesson**: `N = ig_next_day`. Make it (if `days/DAY<N>/reel.mp4` doesn't exist yet) and post
 it to Instagram and Facebook. Then `ig_next_day += 1`.
@@ -20,7 +25,7 @@ it to Instagram and Facebook. Then `ig_next_day += 1`.
   Otherwise make the lesson (rules below; it goes to YouTube only).
 - After each YouTube DAY is scheduled: `yt_next_day = M + 1`.
 
-Do A completely first, then B.
+Do A only (B is paused, see above).
 
 ## Making one lesson (DAY = N or M)
 
@@ -60,8 +65,7 @@ Media: the reel.mp4 raw URL above. Text = caption.txt + blank line + hashtags.tx
 |---|---|---|---|
 | A | 14:00 | Instagram | `instagramData.type: REEL`, `showReelOnFeed: true` |
 | A | 17:00 | Facebook | `facebookData.type: REEL` |
-| B, first YouTube DAY | 10:00 | YouTube | `type: short`, see YouTube below |
-| B, second YouTube DAY | 14:00 | YouTube | `type: short`, see YouTube below |
+| ~~B, YouTube~~ | — | — | paused since 26 Nov 2026, schedule nothing on YouTube |
 
 YouTube: `title` = `DAY <M> | <Hindi name> (<English name>) | Candlestick Hindi #shorts` (must be under 100 chars;
 shorten the Hindi name if needed), `madeForKids: false`, `category: EDUCATION`, `privacy: public`,
