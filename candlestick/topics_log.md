@@ -89,3 +89,6 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 89 | instagram, facebook | ब्रॉडनिंग फॉर्मेशन (Broadening / Megaphone Pattern) | 2026-11-25
 - DAY 74 | youtube (reused Instagram reel) | बेयर फ्लैग पैटर्न (Bear Flag Pattern) | 2026-11-25
 - DAY 75 | youtube (reused Instagram reel) | असेंडिंग ट्रायंगल पैटर्न (Ascending Triangle Pattern) | 2026-11-25
+- DAY 90 | instagram, facebook | डायमंड टॉप (Diamond Top Pattern) | 2026-11-26
+- DAY 76 | youtube (reused Instagram reel) | डिसेंडिंग ट्रायंगल पैटर्न (Descending Triangle Pattern) | 2026-11-26
+- DAY 77 | youtube (reused Instagram reel) | सिमेट्रिकल ट्रायंगल (Symmetrical Triangle Pattern) | 2026-11-26
