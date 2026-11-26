@@ -27,7 +27,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Fibonacci retracement basics (2026-11-23)
 - [x] Position sizing jab SL bada ho (2026-11-24)
 - [x] Drawdown recovery maths (50% loss = 100% gain chahiye) (2026-11-25)
-- [ ] Trading plan ke 5 parts
+- [x] Trading plan ke 5 parts (2026-11-26)
 - [ ] Margin call kya hai
 - [ ] Correlation: EURUSD vs USDCHF
 - [ ] Weekend gap risk
