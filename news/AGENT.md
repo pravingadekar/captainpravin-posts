@@ -31,12 +31,12 @@ If `$DIR/slide1.png` already exists, skip to step 6.
    - `narration`: one voiceover line per slide (same count as slides), Devanagari, English words transliterated,
      numbers and times spelled out (शाम छह बजे, यूएसडी, जीडीपी). Calendar slides: read the 2-3 most important
      events with their times, not every line. Last line asks the slide's question, then ends exactly with:
-     "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम हर सोमवार, बुधवार और शुक्रवार रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
+     "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
    - Never say which way price will go, never "buy/sell", never "forecast se zyada aaya to X karo". Allowed:
      "result forecast se bahut alag aaya to kisi bhi taraf bada move ho sakta hai".
 3. Write `$DIR/captions.md` with two captions (Instagram carousel, Facebook carousel).
    Each: hook, the key events with IST times copied exactly from `$DIR/events.json`, one safety line,
-   "Follow + Subscribe karo @tradewithcaptainpravin", "🔴 Har Somvar, Budhvar aur Shukravar raat 9 baje hum YouTube par LIVE aate hain, live mein
+   "Follow + Subscribe karo @tradewithcaptainpravin", "🔴 Hum roz raat 9 baje YouTube par LIVE aate hain, live mein
    hamare saath judo!", "Disclaimer: Sirf educational content. Financial advice nahi. Forex trading mein high risk
    hai.", hashtags (#forexnews #economiccalendar #forextrading #forexindia #tradingnews #forex plus 4-8 for the
    day's events).

@@ -14,7 +14,7 @@ Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (
    - Slide 1: hook (`tag`, `title` as a question/bold claim, short `text`, `box` "आज सीखो: ...").
    - Slides 2-5: one idea each, with a concrete number/example. Use `list`, `box`, `compare` (colors `green`/`red`).
    - Slide 6: `tag` "आपकी बारी", engagement question as `title`, `text`,
-     `cta` exactly "फ़ॉलो + सब्सक्राइब करो। सोम, बुध, शुक्र रात 9 बजे YouTube LIVE!",
+     `cta` exactly "फ़ॉलो + सब्सक्राइब करो। रोज़ रात 9 बजे YouTube LIVE!",
      `disclaimer` exactly: "डिस्क्लेमर: सिर्फ शैक्षिक कंटेंट। यह फाइनेंशियल सलाह नहीं है। Forex/CFD ट्रेडिंग में बहुत ज़्यादा रिस्क है, आपका पैसा डूब सकता है।"
    - Keep titles under ~40 characters and list items under ~35. NO emoji and NO arrows (→); ÷ × % $ ₹ are fine.
    - Double-check every number and formula.
@@ -27,12 +27,12 @@ Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (
      (ElevenLabs). Write them in Devanagari, with English trading words transliterated (ट्रेड, रिस्क, स्टॉप लॉस,
      लॉट साइज़) and numbers spelled as words (एक परसेंट, दस डॉलर) so the voice pronounces them correctly.
      Conversational Hinglish, 1-2 short sentences per slide (~12-25 words). Line 1 is the hook. Line 6 asks the
-     comment question, then ends exactly with: "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम हर सोमवार, बुधवार और शुक्रवार रात नौ बजे
+     comment question, then ends exactly with: "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे
      यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।" Same facts as the slides, nothing extra.
 4. Write `posts/$D/captions.md` (Instagram carousel, Instagram Reel, Facebook, YouTube Short) in the format of
    `posts/2026-10-29/captions.md`. Each caption: hook, key points, engagement question, CTA, disclaimer, hashtags.
    The CTA in every caption: "Follow + Subscribe karo @tradewithcaptainpravin" and
-   "🔴 Har Somvar, Budhvar aur Shukravar raat 9 baje hum YouTube par LIVE aate hain, live mein hamare saath judo!" (YouTube: "Subscribe karo" + the same
+   "🔴 Hum roz raat 9 baje YouTube par LIVE aate hain, live mein hamare saath judo!" (YouTube: "Subscribe karo" + the same
    live line). YouTube title: the question a beginner would type into YouTube search, in Hinglish (Roman), 35-70
    chars, problem first, ending in ` #shorts` (e.g. "Stop Loss Baar Baar Hit Kyun Hota Hai? #shorts",
    "Lot Size Kaise Nikale? 1% Risk Formula #shorts"). No "DAY", no date, no channel name in the title.

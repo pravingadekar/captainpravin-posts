@@ -1,6 +1,6 @@
-# YouTube LIVE plan — Somvar / Budhvar / Shukravar, 9:00 PM IST
+# YouTube LIVE plan — ROZ (daily), time: see below
 
-Pravin, 26 Nov 2026: "3 din live". Lives are the channel's only real watch-time source (Sep–Oct: 15–52 viewers, 1–2 h each),
+Pravin, 26 Nov 2026: live roz (daily); captions keep "roz raat 9 baje LIVE" until the time is changed. Lives are the channel's only real watch-time source (Sep–Oct: 15–52 viewers, 1–2 h each),
 so keep the days fixed and never skip without posting a "aaj live nahi" note.
 
 ## Format (60 min)
