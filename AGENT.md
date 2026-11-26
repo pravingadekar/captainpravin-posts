@@ -3,6 +3,9 @@
 Brand: **Trade With Captain Pravin** (@tradewithcaptainpravin). Audience: Indian beginners learning forex.
 Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (Roman script). Educational only.
 
+**FACEBOOK ONLY (user, 26 Nov 2026: forex reel + carousel band on Instagram and YouTube).** Never schedule this
+routine's reel or carousel on Instagram or YouTube. Only the two Facebook posts below.
+
 ## Steps (run once per day, ~8:00 AM IST, before the first slot at 10:00 AM)
 
 1. `D=$(TZ=Asia/Kolkata date +%F)`. If `posts/$D/` already exists with `reel.mp4`, skip to step 6.
@@ -63,9 +66,6 @@ Language: slide text and voiceover in Hindi (Devanagari); captions in Hinglish (
    |-------|------|
    | 10:00 | Facebook `REEL` with reel.mp4, Reel caption (Facebook variant) |
    | 12:00 | Facebook `POST` with slide1..slide6 URLs, Facebook caption |
-   | 16:00 | YouTube `short` with reel.mp4: title, `madeForKids: false`, `category: EDUCATION`, `privacy: public`, `isAiGeneratedContent: true` (AI voice). **Skip this slot if any YouTube post is already scheduled on $D** (YouTube gets at most ONE short per day; hand-made hook reels take priority) |
-   | 18:00 | Instagram `REEL` with reel.mp4, `showReelOnFeed: true`, Reel caption |
-   | 20:00 | Instagram `POST` with slide1..slide6 URLs (carousel), Instagram carousel caption |
    If the run is late and a slot has already passed, schedule that post 10 minutes from now instead.
    If createScheduledPost fails with "Failed to normalize media", the file was pushed too recently for
    Metricool to fetch: wait 90 seconds (`sleep 90`) and retry, up to 5 times, before reporting failure.
