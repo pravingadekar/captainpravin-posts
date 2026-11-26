@@ -6,6 +6,9 @@ Purpose: tell people WHEN the big economic news is (in IST) and how to stay safe
 **NO NEWS REELS (user, 20 Nov 2026: "forex news wala reel hamesha ke liye band").** Only the carousel is made
 and posted. Never render the animated reel, never schedule any news REEL or YouTube Short, never use ElevenLabs.
 
+**FACEBOOK ONLY (user, 26 Nov 2026: "forex news ka reel aur carousel IG aur YT se stop karo").** Never post news to
+Instagram or YouTube. The carousel goes to Facebook only.
+
 Run date: `D=$(TZ=Asia/Kolkata date +%F)`, weekday `W=$(TZ=Asia/Kolkata date +%a)`.
 
 - `W` = Sat → nothing to do, stop.
@@ -34,7 +37,7 @@ If `$DIR/slide1.png` already exists, skip to step 6.
      "फ़ॉलो और सब्सक्राइब करो, ट्रेड विद कैप्टन प्रवीण। हम रोज़ रात नौ बजे यूट्यूब पर लाइव आते हैं, लाइव में हमारे साथ ज़रूर जुड़िए।"
    - Never say which way price will go, never "buy/sell", never "forecast se zyada aaya to X karo". Allowed:
      "result forecast se bahut alag aaya to kisi bhi taraf bada move ho sakta hai".
-3. Write `$DIR/captions.md` with two captions (Instagram carousel, Facebook carousel).
+3. Write `$DIR/captions.md` with ONE caption (Facebook carousel).
    Each: hook, the key events with IST times copied exactly from `$DIR/events.json`, one safety line,
    "Follow + Subscribe karo @tradewithcaptainpravin", "🔴 Hum roz raat 9 baje YouTube par LIVE aate hain, live mein
    hamare saath judo!", "Disclaimer: Sirf educational content. Financial advice nahi. Forex trading mein high risk
@@ -52,8 +55,8 @@ If `$DIR/slide1.png` already exists, skip to step 6.
 
    | Mode | Time | Post |
    |---|---|---|
-   | daily | 07:30 | Instagram `POST` carousel + Facebook `POST` carousel |
-   | weekly | 10:00 | Instagram `POST` carousel + Facebook `POST` carousel |
+   | daily | 07:30 | Facebook `POST` carousel (no Instagram, no YouTube) |
+   | weekly | 10:00 | Facebook `POST` carousel (no Instagram, no YouTube) |
 
    If a slot has passed, use 10 minutes from now. A carousel already scheduled for $D on a network (at any
    time) counts as done — never schedule a second one.
