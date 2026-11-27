@@ -28,7 +28,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Position sizing jab SL bada ho (2026-11-24)
 - [x] Drawdown recovery maths (50% loss = 100% gain chahiye) (2026-11-25)
 - [x] Trading plan ke 5 parts (2026-11-26)
-- [ ] Margin call kya hai
+- [x] Margin call kya hai (2026-11-27)
 - [ ] Correlation: EURUSD vs USDCHF
 - [ ] Weekend gap risk
 - [ ] Trailing stop loss
