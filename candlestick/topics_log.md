@@ -92,3 +92,4 @@ DAY 1-40 follow the fixed pattern list in LESSON_PROMPT.md. For DAY 41+ never re
 - DAY 90 | instagram, facebook | डायमंड टॉप (Diamond Top Pattern) | 2026-11-26
 - DAY 76 | youtube (reused Instagram reel) | डिसेंडिंग ट्रायंगल पैटर्न (Descending Triangle Pattern) | 2026-11-26
 - DAY 77 | youtube (reused Instagram reel) | सिमेट्रिकल ट्रायंगल (Symmetrical Triangle Pattern) | 2026-11-26
+- DAY 91 | instagram, facebook | डायमंड बॉटम (Diamond Bottom Pattern) | 2026-11-27
