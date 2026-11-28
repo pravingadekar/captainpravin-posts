@@ -29,7 +29,7 @@ Pick the first unchecked topic, then tick it with the post date. Add new topics 
 - [x] Drawdown recovery maths (50% loss = 100% gain chahiye) (2026-11-25)
 - [x] Trading plan ke 5 parts (2026-11-26)
 - [x] Margin call kya hai (2026-11-27)
-- [ ] Correlation: EURUSD vs USDCHF
+- [x] Correlation: EURUSD vs USDCHF (2026-11-28)
 - [ ] Weekend gap risk
 - [ ] Trailing stop loss
 - [ ] Winning streak ke baad overconfidence
